@@ -34,5 +34,6 @@ services:
       - ALL
 
 networks:
-  finkenroulette
+  finkenroulette:
+    name: finkenroulette
 ```
