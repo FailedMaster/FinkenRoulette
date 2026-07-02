@@ -11,7 +11,7 @@ The `data` directory is kept in the repository for runtime data files, but it is
 ```yaml
 services:
   finkenroulette:
-    image: ghcr.io/dflvunoooooo/finkenroulette:latest
+    image: ghcr.io/FailedMaster/finkenroulette:latest
     container_name: finkenroulette
     restart: unless-stopped
 
