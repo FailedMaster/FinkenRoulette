@@ -1,0 +1,59 @@
+Bier-ID;Bier;Beschreibung;Kategorie;Besonderheiten;Alkoholgehalt;Portionsgröße;Preis;Hinweise
+B001;Andechser Hell alkoholfrei;Echt, kernig, feinherb - das Andechser hell alkoholfrei ist das erste alkoholfreie Helle, das die Klosterbrauerei in ihrer Geschichte auf den Markt bringt. Und wir haben es für euch vom Fass!;Fassbier;alkoholfrei;<0,5;0,3l/0,5l;3,30/4,90;
+B002;Bergmann Amber Lager;Im Stil eines Wiener Lagers wurde mit diesem Sud ein bernsteinfarbenes, vollmundiges Lagerbier gebraut. In der Nase zeigen sich sanfte Frucht und feine Hefenoten, am Gaumen steht ein harmonischer, malzbetonter Körper im Vordergrund.;Fassbier;;5,7;0,3l/0,5l;3,80/5,50;
+B003;Anheuser Busch Bud;Bud ist ein amerikanisches Lagerbier, das seit 1876 in St. Louis, Missouri (USA) gebraut wird. Ein ausgewogener Geschmack mit Aromen von Honig und Zitrusfrüchten, einer goldenen Farbe und einem erfrischenden Geschmackserlebnis zeichnet das Lagerbier aus.;Fassbier;;5,0;0,3l/0,5l;3,90/5,90;
+B004;Vagabund IPA;Unser Feierabend-Begleiter sorgt dafür, dass die Nacht erst am Morgen endet. Mit dezenter Bitterkeit und einem fruchtig-süßen Nachgeschmack von Mango und tropischen Früchten. So schmeckt der Abend länger besser.;Fassbier;;4,5;0,3l/0,5l;3,80/5,50;
+B005;Hopacabana Bret The Hop Man Hart;Markant und aromatisch, mit tropisch-fruchtigen und würzigen Noten. Ein American IPA das dich umhauen wird!;Fassbier;;6,8;0,25l/0,5l;4,30/6,90;
+B006;Maisel&Friends Urban IPA;Ein all day IPA, dem Zitrus- und Grapefruitnoten sowie eine angenehme Bittere, eine erfrischende Leichtigkeit verleihen - so belebend wie die Energie der City. Mit diesem India Pale Ale kreierst Du Deinen eigenen Soundtrack, genauso besonders wie Du.;Fassbier;;5,6;0,3l/0,5l;3,90/5,90;
+B007;BrewDog Wingman Session IPA;Fruchtig, zitronig und leicht. Ein erfrischendes IPA mit tropischen Aromen.;Dosenbier;;4,3;0,5l;5,90;Herkunft: UK
+B008;Hawkes Cider Pineapple Punch;Perfekt sprudelnd, mit spritziger Säure und erfrischendem Abgang.;Dosenbier;Cider;5,0;0,33l;4,50;Herkunft: UK
+B009;Hawkes Cider Urban Orchard;Perfekt sprudelnd, mit spritziger Säure und erfrischendem Abgang.;Dosenbier;Cider;5,0;0,33l;4,50;Herkunft: UK
+B010;Hopcity: Barking Squirrel;Bernsteinfarbenes Amber Lager mit einem subtilen edlen Hopfenaroma.;Dosenbier;;5,0;0,473l;5,90;Herkunft: CAN
+B011;Mort Subite Crime of Passion;Kombination aus Passionsfrucht und tropischen Kräutern.;Dosenbier;;7,2;0,355l;4,50;Herkunft: BEL
+B012;Moosehead Andrew&Patrick's;Modernes Session IPA mit fruchtigen Aromen.;Dosenbier;;4,7;0,473l;5,90;Herkunft: CAN
+B013;Moosehead East Coast IPA;Ein fruchtiges India Pale Ale.;Dosenbier;;5,9;0,355l;4,50;Herkunft: CAN
+B014;Moosehead Limeade;;Dosenbier;;4,0;0,355l;4,50;"Herkunft: CAN; versch. Sorten: Raspberry, Blueberry, Watermelon oder Original Limette"
+B015;Moosehead Radler;;Dosenbier;Radler;4,0;0,473l/0,355l;5,90/4,50;"Herkunft: CAN; versch. Sorten: Grapefruit (0,473l) oder Melone (0,355l)"
+B016;Moosehead Radler Neon;;Dosenbier;Radler;4,0;0,355l;4,50;"Herkunft: CAN; versch. Sorten: Cherry Blast und Framboise Bleue"
+B017;Moosehead Dark Lager;Dunkles Lagerbier, mit einer Mischung aus fruchtigen und malzigen Noten.;Dosenbier;;4,9;0,473l;5,90;Herkunft: CAN
+B018;Moosehead Mistral Hop IPA;Kräftiges IPA mit einem süßlich-fruchtigen Hopfen-Aroma.;Dosenbier;;6,0;0,473l;5,90;Herkunft: CAN
+B019;Moosehead Helles Bock;Das helle Bier ist, wie der Name sagt, am deutschen Bock-Bier orientiert.;Dosenbier;;6,2;0,473l;5,90;Herkunft: CAN
+B020;Moosehead Hoppy Light Lager;Leichtes Bier mit einem frischen und fruchtigen Hopfenaroma.;Dosenbier;;5,5;0,473l;5,90;Herkunft: CAN
+B021;Michelob Ultra;Ein sehr beliebtes, leichtes und helles Bier aus der Budweiser Brauerei.;Dosenbier;;4,2;0,355l;4,50;Herkunft: USA
+B022;Adnams Ghost Ship Pale Ale;Ein Hauch von Holunderblüte, dazu kräftiger Zitrus- und Stachelbeergeschmack.;für kurze Zeit;;4,5;0,5l;5,90;"Herkunft: UK; solange der Vorrat reicht"
+B023;Benediktiner Hell;Ein Lagerbier mit goldgelber Farbe und angenehmer Malzsüße, mild im Geschmack.;für kurze Zeit;;5,0;0,5l;4,90;solange der Vorrat reicht
+B024;Braujungens 4200 Lager;Leicht, vollmundig und erfrischend zugleich. Ein Lagerbier aus Oberhausen.;für kurze Zeit;;5,2;0,33l;3,70;solange der Vorrat reicht
+B025;Brewdog Elvis Juice Grapefruit IPA;Fruchtige Aromen von Grapefruit, Blutorange und Zitronengras.;für kurze Zeit;;6,5;0,33l;3,50;"Herkunft: SCO; MHD; solange der Vorrat reicht"
+B026;Bloemenbier;Dieses Golden Strong Ale wird mit zwei Sorten Blumen eingebraut.;für kurze Zeit;;7,0;0,33l;4,80;"Herkunft: BEL; solange der Vorrat reicht"
+B027;Bud Light;In der USA-typischen Aluminium-Flasche.;für kurze Zeit;;4,2;0,473l;5,90;"Herkunft: USA; Aluminium-Flasche; solange der Vorrat reicht"
+B028;Desperados Lime;Limette und Kaktus treffen auf Bier und Agaven-Spirituose.;für kurze Zeit;;3,0;0,33l;4,00;"MHD Angebot 3 Stück für 10,00; solange der Vorrat reicht"
+B029;Estrella Daura Damm;Ein Lager aus Barcelona. Lieblich, angenehm und unkompliziert.;für kurze Zeit;;5,4;0,33l;4,00;"Herkunft: ESP; solange der Vorrat reicht"
+B030;Hancock Merry Christmas;Ein spritzig frisches Weihnachtsbier, das perfekt in die kalten Wintertage passt.;für kurze Zeit;;6,3;0,33l;4,50;"Herkunft: DNK; solange der Vorrat reicht"
+B031;Henry Westons Vintage Pear Cider;Aus edlen Birnen - fruchtig, mittel süß und prickelnd.;für kurze Zeit;Cider;6,0;0,5l;6,00;"Herkunft: UK; solange der Vorrat reicht"
+B032;Jopen Super DuPa IPA;Handgemachtes Craftbier mit fruchtigen und exotischen Noten.;für kurze Zeit;;5,5;0,33l;4,50;"Herkunft: NLD; solange der Vorrat reicht"
+B033;Moosehead Light;"""Light"" bedeutet hier nicht etwa weniger Alkoholgehalt, sondern weniger Kalorien.";für kurze Zeit;;4,0;0,341l;4,50;"Herkunft: CAN; solange der Vorrat reicht"
+B034;Pink Killer;Ein säuerlich-fruchtiges Bier mit Grapefruit und Orange.;für kurze Zeit;;5,0;0,25l;4,00;"Herkunft: BEL; solange der Vorrat reicht"
+B035;Refsvindinge Julehyg;Dieses Bier wird mit Bitterorange gebraut, was zu seinem besonderen Geschmack beiträgt.;für kurze Zeit;;5,7;0,33l;4,80;"Herkunft: DNK; solange der Vorrat reicht"
+B036;Riegele Kellerbier;Drei Malzsorten und die besondere Riegele Alehefe sorgen für ein fruchtiges und vollmundiges Aroma.;für kurze Zeit;;5,0;0,5l;4,90;solange der Vorrat reicht
+B037;Samuel Smith's Chocolate Stout;Die perfekte Verbindung von Stout und luxuriöser Schokolade.;für kurze Zeit;;5,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
+B038;Samuel Smith's Nut Brown Ale;Nussiges Aroma, das an Walnüsse, Bucheckern und Mandeln erinnert.;für kurze Zeit;;5,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
+B039;Samuel Smith's Imperial Stout;Aromen von Kaffee und Schokolade, gebraut im Yorkshire Squares-Verfahren.;für kurze Zeit;;7,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
+B040;Schneider Weisse Tap 2 Kristall;Ein kristallklares Weißbier. Spritzig, leicht malzig und sehr süffig.;für kurze Zeit;;4,9;0,5l;4,90;solange der Vorrat reicht
+B041;Seth&Rileys Garage Hardcore Grapefruit;Fruchtige Grapefruit, milde Süße & ein angenehmes Trinkgefühl.;für kurze Zeit;;6,0;0,275l;4,00;"Herkunft: EST; solange der Vorrat reicht"
+B042;Seth&Rileys Garage Hardcore Cherry;Feine Kirsche trifft auf mildes Bier. Angenehm leicht und vollmundig.;für kurze Zeit;;6,0;0,275l;4,00;"Herkunft: EST; solange der Vorrat reicht"
+B043;Seth&Rileys Garage Hard Lingonberry Drink;Leichtes Bier mit der feinen Frische von Preiselbeeren.;für kurze Zeit;;4,6;0,275l;4,00;"Herkunft: EST; solange der Vorrat reicht"
+B044;Superfreunde Hell;Umgarnt eure Geschmacksknospen mit malzig-süßen Aromen und sommerlich erfrischenden Noten.;für kurze Zeit;;5,2;0,5l;4,90;solange der Vorrat reicht
+B045;Theakston Old Peculier;Süß malzig mit zartem Karamell und Toffee und einem weichen Trinkgefühl.;für kurze Zeit;;5,6;0,5l;5,90;"Herkunft: UK; solange der Vorrat reicht"
+B046;Big Chouffe;Der ikonische Zwerg bringt euch ein Strong Golden Ale in einer Magnumflasche. Limited Edition 2025.;besondere Biere;;8,0;1,5l;19,90;"Herkunft: BEL; Magnumflasche; Limited Edition 2025; solange der Vorrat reicht"
+B047;Côtes du Rogue;Ein Sour Blonde Ale, das durch ein herbes Aroma und eine angenehme Frische überzeugt.;besondere Biere;;7,1;0,5l;14,90;"Herkunft: UK; solange der Vorrat reicht"
+B048;Kasteel Donker;Von dunklen Trappistenbieren und englischen Barleywines inspirierte flämische Bierspezialität.;besondere Biere;;11,0;0,75l;10,90;"Herkunft: BEL; solange der Vorrat reicht"
+B049;Mikkeller Spontan Cherry;Ein besonderes Sauerbier, das mit Frederiksdal-Kirschen in Eichenfässern reifte.;besondere Biere;;7,1;0,375l;14,90;"Herkunft: DNK; solange der Vorrat reicht"
+B050;St. Bernardus ABT 12;Ein dunkles, komplexes Abtei-Ale. Stilkategorie zwischen Barley Wine und „Quadrupel“.;besondere Biere;;10,0;0,75l;10,90;"Herkunft: BEL; solange der Vorrat reicht"
+B051;St. Bernardus PRIOR 8;"Abteibier nach ""Dubbel""-Rezept, wobei doppelt soviel Malz zum Einsatz kommt.";besondere Biere;;8,0;0,75l;10,90;"Herkunft: BEL; solange der Vorrat reicht"
+B052;Becks Blue Lemon;Pure Zitronenfrische. Weniger Zucker. Genau das Richtige wenn du frischen Geschmack suchst.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;3,30;
+B053;Benediktiner Hell alkoholfrei;Mild-frisch, alkoholfrei und isotonisch, das ideale Getränk für ein gutes Leben.;alkoholfreies Bier;alkoholfrei;<0,5;0,33l;3,30;
+B054;Corona Cero 0,0;Ein fruchtig frisches, goldgelbes Lagerbier. Perfekt für laue Sommernächte.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;4,50;Herkunft: MEX
+B055;Jever Fun 0,0;Mit goldgelber Farbe und vollmundigem Geschmack überzeugt Jever Fun 0,0% optisch und geschmacklich.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;3,30;
+B056;Seth&Rileys Garage Hard Lemon Zero Alcohol;Zitrone pur, erfrischend leicht und alkoholfrei.;alkoholfreies Bier;alkoholfrei;0,0;0,275l;4,00;Herkunft: EST
+B057;Sierra Nevada Trail Pass - Hazy IPA;Begeistert mit tropischen Aromen und echtem Craft-Beer-Charakter.;alkoholfreies Bier;alkoholfrei;0,5;0,355l;4,50;
+B058;Sierra Nevada Trail Pass - IPA;Eine geballte Ladung Frucht verbirgt sich in diesem alkoholfreien IPA.;alkoholfreies Bier;alkoholfrei;0,5;0,355l;4,50;
