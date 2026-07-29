@@ -6,6 +6,15 @@
 
     <title>Finkenroulette</title>
 
+    <!-- #region Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion Fonts -->
+
     <!-- #region Favicon -->
     <link
       rel="icon"
@@ -29,7 +38,18 @@
     <!-- #endregion Favicon  -->
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="roulette-button"></div>
+      <div id="result"></div>
+      <div class="message-wrapper hidden">
+        <div class="message-container">
+          <span class="message-icon"></span>
+          <span id="message-content"></span>
+          <span class="message-icon"></span>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
