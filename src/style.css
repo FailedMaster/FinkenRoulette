@@ -38,15 +38,15 @@ body {
 }
 
 .message-wrapper.info .message-icon {
-  mask: url("/icons/info.svg") no-repeat center / contain;
+  mask: url("/src/assets/icons/info.svg") no-repeat center / contain;
 }
 
 .message-wrapper.warning .message-icon {
-  mask: url("/icons/warning.svg") no-repeat center / contain;
+  mask: url("/src/assets/icons/warning.svg") no-repeat center / contain;
 }
 
 .message-wrapper.error .message-icon {
-  mask: url("/icons/error.svg") no-repeat center / contain;
+  mask: url("/src/assets/icons/error.svg") no-repeat center / contain;
 }
 
 .message-container {
@@ -92,7 +92,7 @@ body {
   height: 300px;
   border-radius: 50%;
   box-shadow: inset 0 0 0.25em 0.75em #d10a11;
-  background-image: url("/mysterybeer.png");
+  background-image: url("/src/assets/mysterybeer.png");
   background-color: #0093d2;
   background-position: center;
   background-size: 75% auto;
