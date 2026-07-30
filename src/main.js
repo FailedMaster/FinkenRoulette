@@ -4,6 +4,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 let beers = [];
+let categories = [];
 
 /**
  * Display a message banner and hide it when clicked.
@@ -50,6 +51,16 @@ function parseCsvContent(csvText, separator = ";") {
   });
 }
 
+function getCategories() {
+  const categories = beers
+    .map((beer) => beer.Kategorie?.trim())
+    .filter((category) => category);
+
+  return [...new Set(categories)].sort((a, b) =>
+    a.localeCompare(b, "de", { sensitivity: "base" }),
+  );
+}
+
 async function loadBeers() {
   try {
     const [dauerhaftResponse, saisonalResponse] = await Promise.all([
@@ -75,6 +86,8 @@ async function loadBeers() {
         "Die Bierkarte ist leer. Bitte überprüfe die CSV-Dateien.",
       );
     }
+
+    categories = getCategories();
   } catch (error) {
     showMessage(error.message, "error");
     beers = [];

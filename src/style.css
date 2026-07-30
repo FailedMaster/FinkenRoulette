@@ -1,9 +1,22 @@
+/*
+  Colors: Blue = #0093d1
+          Red = #d10a11
+          Grey = #313131
+*/
+
 body {
   margin: 0;
   background-color: #151515;
-
   display: flex;
   justify-content: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #0093d1;
+  box-sizing: border-box;
 }
 
 .hidden {
