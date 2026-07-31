@@ -5,6 +5,9 @@ const $$ = document.querySelectorAll.bind(document);
 
 let beers = [];
 let categories = [];
+let selectedCategories = new Set();
+
+let messageTimeout;
 
 /**
  * Display a message banner and hide it when clicked.
@@ -13,14 +16,18 @@ let categories = [];
  * @param {"info"|"warning"|"error"} [type="info"] - The message style.
  */
 function showMessage(message, type = "info") {
+  hideMessage();
   $("#message-content").textContent = message;
   $(".message-wrapper").classList.add(type);
   $(".message-wrapper").classList.remove("hidden");
 
-  $(".message-wrapper").addEventListener("click", () => {
-    $(".message-wrapper").classList.remove("info", "warning", "error");
-    $(".message-wrapper").classList.add("hidden");
-  });
+  clearTimeout(messageTimeout);
+  messageTimeout = setTimeout(hideMessage, 5000);
+}
+
+function hideMessage() {
+  $(".message-wrapper").classList.remove("info", "warning", "error");
+  $(".message-wrapper").classList.add("hidden");
 }
 
 /**
@@ -61,6 +68,63 @@ function getCategories() {
   );
 }
 
+function saveSelectedCategories() {
+  localStorage.setItem(
+    "selectedCategories",
+    JSON.stringify([...selectedCategories]),
+  );
+}
+
+function loadSelectedCategories() {
+  try {
+    const storedCategories = localStorage.getItem("selectedCategories");
+
+    if (storedCategories) {
+      const parsedCategories = JSON.parse(storedCategories);
+
+      if (Array.isArray(parsedCategories)) {
+        return new Set(parsedCategories);
+      }
+    }
+  } catch (error) {
+    showMessage(
+      `Lokale Filtereinstellung konnten nicht geladen werden. \n\n ${error}`,
+      "warning",
+    );
+  }
+
+  return new Set(categories);
+}
+
+function renderCategoryFilters() {
+  const container = $("#category-checkboxes");
+
+  container.innerHTML = categories
+    .map(
+      (category) => `
+        <label class="category-option">
+          <input type="checkbox" value="${category}" />
+          <span>${category}</span>
+        </label>
+      `,
+    )
+    .join("");
+
+  container.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
+    checkbox.checked = selectedCategories.has(checkbox.value);
+
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        selectedCategories.add(checkbox.value);
+      } else {
+        selectedCategories.delete(checkbox.value);
+      }
+
+      saveSelectedCategories();
+    });
+  });
+}
+
 async function loadBeers() {
   try {
     const [dauerhaftResponse, saisonalResponse] = await Promise.all([
@@ -88,6 +152,8 @@ async function loadBeers() {
     }
 
     categories = getCategories();
+    selectedCategories = loadSelectedCategories();
+    renderCategoryFilters();
   } catch (error) {
     showMessage(error.message, "error");
     beers = [];
@@ -105,7 +171,31 @@ function selectRandomBeer() {
     return null;
   }
 
-  const beer = beers[Math.floor(Math.random() * beers.length)];
+  if (selectedCategories.size === 0) {
+    showMessage("Kein Filter aktiv!", "warning");
+    return null;
+  }
+
+  if (
+    selectedCategories.size === 1 &&
+    selectedCategories.has("alkoholfreies Bier")
+  ) {
+    showMessage("Dein Ernst...!?");
+  }
+
+  const filteredBeers = beers.filter((beer) =>
+    selectedCategories.has(beer.Kategorie?.trim()),
+  );
+
+  if (filteredBeers.length === 0) {
+    showMessage(
+      "Keine Biere für die ausgewählten Filter verfügbar.",
+      "warning",
+    );
+    return null;
+  }
+
+  const beer = filteredBeers[Math.floor(Math.random() * filteredBeers.length)];
 
   return beer;
 }
@@ -123,7 +213,23 @@ function renderBeer(beer) {
 
 loadBeers();
 
+const burgerButton = $(".burger-menu");
+const burgerMenuPanel = $("#burger-menu-panel");
+
+burgerButton.addEventListener("click", () => {
+  burgerMenuPanel.classList.toggle("hidden");
+  burgerMenuPanel.setAttribute(
+    "aria-hidden",
+    String(burgerMenuPanel.classList.contains("hidden")),
+  );
+});
+
 $("#roulette-button").addEventListener("click", () => {
   const beer = selectRandomBeer();
-  renderBeer(beer);
+
+  if (beer) {
+    renderBeer(beer);
+  }
 });
+
+$(".message-wrapper").addEventListener("click", hideMessage);
