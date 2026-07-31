@@ -224,11 +224,21 @@ burgerButton.addEventListener("click", () => {
   );
 });
 
-$("#roulette-button").addEventListener("click", () => {
+$("#roulette-button").addEventListener("click", async () => {
   const beer = selectRandomBeer();
 
   if (beer) {
+    await new Promise((resolve) => {
+      $("#roulette-button").classList.add("unclickable", "anm-spinning");
+
+      setTimeout(() => {
+        $("#roulette-button").classList.remove("unclickable", "anm-spinning");
+        resolve();
+      }, 2000);
+    });
     renderBeer(beer);
+  } else {
+    showMessage("Es konnte kein Bier gefunden werden.", "error");
   }
 });
 

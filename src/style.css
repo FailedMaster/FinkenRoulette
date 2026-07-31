@@ -101,6 +101,10 @@ header h1 {
   display: none;
 }
 
+.unclickable {
+  pointer-events: none;
+}
+
 .message-wrapper {
   margin: 1em;
   padding: 1em;
@@ -195,4 +199,34 @@ header h1 {
   background-size: 75% auto;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  10% {
+    transform: rotateZ(-30deg);
+  }
+
+  80% {
+    transform: rotateZ(1830deg);
+  }
+
+  90% {
+    transform: rotateZ(1785deg);
+  }
+
+  95% {
+    transform: rotateZ(1807deg);
+  }
+
+  100% {
+    transform: rotateZ(1800deg);
+  }
+}
+
+.anm-spinning {
+  animation: spinning 2s ease-in-out;
 }
