@@ -13,13 +13,20 @@ body {
 
 header {
   width: 100%;
-  margin-bottom: 50px;
   background-color: #0093d1;
   box-sizing: border-box;
   padding: 1rem 1.25rem;
   position: relative;
   z-index: 2;
   border-bottom: 0.25rem solid #d10a11;
+}
+
+.hidden {
+  display: none;
+}
+
+.unclickable {
+  pointer-events: none;
 }
 
 .header-content {
@@ -64,21 +71,21 @@ header h1 {
 }
 
 #burger-menu-panel {
-  position: fixed;
+  position: absolute;
   top: 4.5rem;
-  right: calc(50vw - 320px);
-  width: min(16rem, calc(100vw - 2rem));
-  padding: 0.75rem 1rem;
+  right: 0;
+
+  padding: 1rem 2rem 1rem 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+
   background-color: #0093d1;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  z-index: 10;
-  height: 250px;
-  box-sizing: border-box;
-  overflow-y: auto;
   border-width: 0 0 0.25rem 0.25rem;
   border-style: solid;
   border-color: #d10a11;
+  z-index: 10;
 }
 
 .menu-section h2 {
@@ -97,16 +104,10 @@ header h1 {
   margin: 0;
 }
 
-.hidden {
-  display: none;
-}
-
-.unclickable {
-  pointer-events: none;
-}
-
 .message-wrapper {
-  margin: 1em;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   padding: 1em;
   border-radius: 4px;
   color: #ffffff;
@@ -122,7 +123,7 @@ header h1 {
 }
 
 .message-wrapper.info {
-  background-color: blue;
+  background-color: #0093d1;
 }
 
 .message-wrapper .message-icon {
@@ -147,21 +148,24 @@ header h1 {
 .message-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #message-content {
-  width: 10em;
+  width: 75%;
   margin: 0 1em 0 1em;
   text-align: center;
 }
 
 #app {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
   width: 100vw;
   max-width: 640px;
+  overflow: hidden;
 
   background-color: #313131;
   color: #ffffff;
@@ -180,7 +184,7 @@ header h1 {
   font-feature-settings: normal;
   font-kerning: auto;
   font-optical-sizing: auto;
-  font-size: 1em;
+  font-size: 1rem;
   font-stretch: 100%;
   font-style: normal;
   font-variant: normal;
@@ -191,6 +195,8 @@ header h1 {
 #roulette-button {
   width: 300px;
   height: 300px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   border-radius: 50%;
   box-shadow: inset 0 0 0.25em 0.75em #d10a11;
   background-image: url("/src/assets/mysterybeer.png");
@@ -199,6 +205,45 @@ header h1 {
   background-size: 75% auto;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+#result-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+#result {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result div {
+  margin-bottom: 1rem;
+}
+
+#beer-name {
+  color: #0093d1;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#beer-info {
+  font-size: 1.5rem;
+}
+
+#beer-pricing table tbody td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+#beer-extra {
+  font-style: italic;
+  opacity: 0.75;
 }
 
 @keyframes spinning {

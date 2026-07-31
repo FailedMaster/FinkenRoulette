@@ -46,16 +46,52 @@ function parseCsvContent(csvText, separator = ";") {
     return [];
   }
 
-  const headers = lines[0].split(separator);
+  const parseLine = (line) => {
+    const values = [];
+    let currentValue = "";
+    let inQuotes = false;
+
+    for (let index = 0; index < line.length; index += 1) {
+      const char = line[index];
+
+      if (char === '"') {
+        if (inQuotes && line[index + 1] === '"') {
+          currentValue += '"';
+          index += 1;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (char === separator && !inQuotes) {
+        values.push(currentValue);
+        currentValue = "";
+      } else {
+        currentValue += char;
+      }
+    }
+
+    values.push(currentValue);
+    return values;
+  };
+
+  const headers = parseLine(lines[0]);
 
   return lines.slice(1).map((line) => {
-    const values = line.split(separator);
+    const values = parseLine(line);
 
     return headers.reduce((acc, header, index) => {
       acc[header] = values[index] ?? "";
       return acc;
     }, {});
   });
+}
+
+function isNumber(str) {
+  if (typeof str !== "string" || str.trim() === "") return false;
+
+  // Replace comma with dot
+  const normalized = str.replace(",", ".");
+
+  return !isNaN(Number(normalized));
 }
 
 function getCategories() {
@@ -201,13 +237,36 @@ function selectRandomBeer() {
 }
 
 function renderBeer(beer) {
-  const result = $("#result");
+  $("#beer-name").textContent = beer.Bier;
 
-  result.innerHTML = Object.entries(beer)
-    .map(
-      ([key, value]) =>
-        `<p><span><strong>${key}:</strong></span><span>${value}</span></p>`,
-    )
+  if (isNumber(beer.Alkoholgehalt)) {
+    $("#beer-info").textContent =
+      `${beer.Kategorie} (alc. ${beer.Alkoholgehalt}% vol.)`;
+  } else {
+    $("#beer-info").textContent =
+      `${beer.Kategorie} (alc. ${beer.Alkoholgehalt})`;
+  }
+
+  const [sizes, prices] = [beer.Portionsgröße, beer.Preis].map((str) =>
+    str.split("/"),
+  );
+
+  $("#beer-pricing").innerHTML = `<table><tbody></tbody></table>`;
+
+  sizes.map((size, index) => {
+    const pricingTable = $("#beer-pricing table tbody");
+    const newRow = `<tr><td>${size}:</td><td>${prices[index]}€</td></tr>`;
+
+    pricingTable.insertAdjacentHTML("beforeend", newRow);
+  });
+
+  const extraDetails = [beer.Beschreibung, beer.Besonderheiten, beer.Hinweise]
+    .filter(Boolean)
+    .map((value) => value.trim())
+    .filter(Boolean);
+
+  $("#beer-extra").innerHTML = extraDetails
+    .map((detail) => `<p>${detail}</p>`)
     .join("");
 }
 
@@ -230,6 +289,7 @@ $("#roulette-button").addEventListener("click", async () => {
   if (beer) {
     await new Promise((resolve) => {
       $("#roulette-button").classList.add("unclickable", "anm-spinning");
+      $("#result-wrapper").classList.add("hidden");
 
       setTimeout(() => {
         $("#roulette-button").classList.remove("unclickable", "anm-spinning");
@@ -237,8 +297,7 @@ $("#roulette-button").addEventListener("click", async () => {
       }, 2000);
     });
     renderBeer(beer);
-  } else {
-    showMessage("Es konnte kein Bier gefunden werden.", "error");
+    $("#result-wrapper").classList.remove("hidden");
   }
 });
 
