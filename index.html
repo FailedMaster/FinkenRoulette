@@ -39,6 +39,22 @@
   </head>
   <body>
     <div id="app">
+      <header>
+        <div class="header-content">
+          <h1>Finkenroulette</h1>
+          <button class="burger-menu" type="button" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <div id="burger-menu-panel" class="hidden" aria-hidden="true">
+        <div class="menu-section">
+          <h2>Filter</h2>
+          <div id="category-checkboxes"></div>
+        </div>
+      </div>
       <div id="roulette-button"></div>
       <div id="result"></div>
       <div class="message-wrapper hidden">
