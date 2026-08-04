@@ -1,19 +1,25 @@
 import "./style.css";
 
 const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
 
+// -----------------------------------------------------------------------------
+// App state
+// -----------------------------------------------------------------------------
 let beers = [];
 let categories = [];
 let selectedCategories = new Set();
+let messageTimeout = null;
 
-let messageTimeout;
+// -----------------------------------------------------------------------------
+// Message handling
+// -----------------------------------------------------------------------------
 
 /**
- * Display a message banner and hide it when clicked.
+ * Display a message banner and automatically hide it after a short delay.
  *
- * @param {string} message - The message text to show.
+ * @param {string} message - The message text to display.
  * @param {"info"|"warning"|"error"} [type="info"] - The message style.
+ * @returns {void}
  */
 function showMessage(message, type = "info") {
   hideMessage();
@@ -25,6 +31,11 @@ function showMessage(message, type = "info") {
   messageTimeout = setTimeout(hideMessage, 5000);
 }
 
+/**
+ * Hide the currently visible message banner.
+ *
+ * @returns {void}
+ */
 function hideMessage() {
   $(".message-wrapper").classList.remove("info", "warning", "error");
   $(".message-wrapper").classList.add("hidden");
@@ -94,16 +105,30 @@ function isNumber(str) {
   return !isNaN(Number(normalized));
 }
 
-function getCategories() {
-  const categories = beers
-    .map((beer) => beer.Kategorie?.trim())
-    .filter((category) => category);
+// -----------------------------------------------------------------------------
+// Filter management
+// -----------------------------------------------------------------------------
 
-  return [...new Set(categories)].sort((a, b) =>
+/**
+ * Extract all unique beer categories from the loaded dataset.
+ *
+ * @returns {string[]} Sorted list of category names.
+ */
+function getCategories() {
+  const categoryValues = beers
+    .map((beer) => beer.Kategorie?.trim())
+    .filter(Boolean);
+
+  return [...new Set(categoryValues)].sort((a, b) =>
     a.localeCompare(b, "de", { sensitivity: "base" }),
   );
 }
 
+/**
+ * Persist the selected category filters to local storage.
+ *
+ * @returns {void}
+ */
 function saveSelectedCategories() {
   localStorage.setItem(
     "selectedCategories",
@@ -111,6 +136,11 @@ function saveSelectedCategories() {
   );
 }
 
+/**
+ * Restore the selected category filters from local storage.
+ *
+ * @returns {Set<string>} The restored selection or the current category list.
+ */
 function loadSelectedCategories() {
   try {
     const storedCategories = localStorage.getItem("selectedCategories");
@@ -132,6 +162,11 @@ function loadSelectedCategories() {
   return new Set(categories);
 }
 
+/**
+ * Render the category filter checkboxes inside the menu.
+ *
+ * @returns {void}
+ */
 function renderCategoryFilters() {
   const container = $("#category-checkboxes");
 
@@ -161,6 +196,11 @@ function renderCategoryFilters() {
   });
 }
 
+/**
+ * Load the beer data from both CSV files and initialize the app state.
+ *
+ * @returns {Promise<void>}
+ */
 async function loadBeers() {
   try {
     const [dauerhaftResponse, saisonalResponse] = await Promise.all([
@@ -196,10 +236,14 @@ async function loadBeers() {
   }
 }
 
+// -----------------------------------------------------------------------------
+// Beer selection and rendering
+// -----------------------------------------------------------------------------
+
 /**
- * Select a random beer.
+ * Choose a random beer from the currently active filters.
  *
- * @returns {Record<string, string>|null} The randomly selected beer object, or null if none.
+ * @returns {Record<string, string>|null} The selected beer, or null if none can be chosen.
  */
 function selectRandomBeer() {
   if (beers.length === 0) {
@@ -236,6 +280,12 @@ function selectRandomBeer() {
   return beer;
 }
 
+/**
+ * Render the selected beer into the results view.
+ *
+ * @param {Record<string, string>} beer - The beer object to display.
+ * @returns {void}
+ */
 function renderBeer(beer) {
   $("#beer-name").textContent = beer.Bier;
 
@@ -270,6 +320,15 @@ function renderBeer(beer) {
     .join("");
 }
 
+// -----------------------------------------------------------------------------
+// UI interactions
+// -----------------------------------------------------------------------------
+
+/**
+ * Toggle the burger menu panel and overlay visibility.
+ *
+ * @returns {void}
+ */
 function toggleMenu() {
   const burgerMenuPanel = $("#burger-menu-panel");
   const overlay = $(".overlay");
@@ -278,27 +337,41 @@ function toggleMenu() {
   overlay.classList.toggle("hidden");
 }
 
-loadBeers();
+// -----------------------------------------------------------------------------
+// Initialization
+// -----------------------------------------------------------------------------
 
-$(".burger-menu").addEventListener("click", toggleMenu);
-$(".overlay").addEventListener("click", toggleMenu);
+/**
+ * Initialize the app by loading data and wiring event listeners.
+ *
+ * @returns {void}
+ */
+function initializeApp() {
+  loadBeers();
 
-$("#roulette-button").addEventListener("click", async () => {
-  const beer = selectRandomBeer();
+  $(".burger-menu").addEventListener("click", toggleMenu);
+  $(".overlay").addEventListener("click", toggleMenu);
 
-  if (beer) {
-    await new Promise((resolve) => {
-      $("#roulette-button").classList.add("unclickable", "anm-spinning");
-      $("#result-wrapper").classList.add("hidden");
+  $("#roulette-button").addEventListener("click", async () => {
+    const beer = selectRandomBeer();
 
-      setTimeout(() => {
-        $("#roulette-button").classList.remove("unclickable", "anm-spinning");
-        resolve();
-      }, 2000);
-    });
-    renderBeer(beer);
-    $("#result-wrapper").classList.remove("hidden");
-  }
-});
+    if (beer) {
+      await new Promise((resolve) => {
+        $("#roulette-button").classList.add("unclickable", "anm-spinning");
+        $("#result-wrapper").classList.add("hidden");
 
-$(".message-wrapper").addEventListener("click", hideMessage);
+        setTimeout(() => {
+          $("#roulette-button").classList.remove("unclickable", "anm-spinning");
+          resolve();
+        }, 2000);
+      });
+
+      renderBeer(beer);
+      $("#result-wrapper").classList.remove("hidden");
+    }
+  });
+
+  $(".message-wrapper").addEventListener("click", hideMessage);
+}
+
+initializeApp();

@@ -1,9 +1,14 @@
 :root {
+  /* Theme tokens used throughout the app. */
   --theme-grey: #313131;
   --theme-blue: #0093d1;
   --theme-red: #d10a11;
+  --theme-gold: #ffc72c;
 }
 
+/* --------------------------------------------------------------------------
+   Scrollbar styling
+   -------------------------------------------------------------------------- */
 ::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.5rem;
@@ -20,21 +25,14 @@
   width: 5px;
 }
 
+/* --------------------------------------------------------------------------
+   Base layout and utility classes
+   -------------------------------------------------------------------------- */
 body {
   margin: 0;
   background-color: #151515;
   display: flex;
   justify-content: center;
-}
-
-header {
-  width: 100%;
-  background-color: var(--theme-blue);
-  box-sizing: border-box;
-  padding: 1rem 1.25rem;
-  position: relative;
-  z-index: 10;
-  border-bottom: 0.25rem solid var(--theme-red);
 }
 
 .hidden {
@@ -54,6 +52,58 @@ header {
   opacity: 0.5;
   background-color: black;
   z-index: 5;
+}
+
+/* --------------------------------------------------------------------------
+   App shell
+   -------------------------------------------------------------------------- */
+#app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 640px;
+  overflow: hidden;
+
+  background-color: var(--theme-grey);
+  color: #ffffff;
+
+  font-family:
+    "Barlow Semi Condensed",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+/* --------------------------------------------------------------------------
+   Header and navigation
+   -------------------------------------------------------------------------- */
+header {
+  width: 100%;
+  background-color: var(--theme-blue);
+  box-sizing: border-box;
+  padding: 1rem 1.25rem;
+  position: relative;
+  z-index: 10;
+  border-bottom: 0.25rem solid var(--theme-red);
 }
 
 .header-content {
@@ -115,9 +165,81 @@ header h1 {
   z-index: 10;
 }
 
+/* --------------------------------------------------------------------------
+   Menu controls
+   -------------------------------------------------------------------------- */
+.menu-section {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .menu-section h2 {
   margin: 0 0 0.75rem;
   font-size: 1.1rem;
+}
+
+/* Custom toggle switch styling for filter and history options. */
+.menu-section input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 2.6rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.25);
+  vertical-align: middle;
+  position: relative;
+  transition: background-color 150ms ease-in-out;
+}
+
+.menu-section input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 1.2rem;
+  height: 0.8rem;
+  border-radius: 999px;
+  background-color: #ffffff;
+  transition:
+    transform 150ms ease-in-out,
+    background-color 150ms ease-in-out;
+}
+
+.menu-section input[type="checkbox"]:checked {
+  background-color: var(--theme-gold);
+}
+
+.menu-section input[type="checkbox"]:checked::before {
+  transform: translateX(1.1rem);
+  background-color: var(--theme-blue);
+}
+
+.menu-section input[type="checkbox"]:focus-visible {
+  outline: 2px solid var(--theme-gold);
+  outline-offset: 2px;
+}
+
+.menu-section button {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .category-option {
@@ -131,6 +253,9 @@ header h1 {
   margin: 0;
 }
 
+/* --------------------------------------------------------------------------
+   Message banner
+   -------------------------------------------------------------------------- */
 .message-wrapper {
   width: 100%;
   position: absolute;
@@ -184,42 +309,9 @@ header h1 {
   text-align: center;
 }
 
-#app {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
-  width: 100vw;
-  max-width: 640px;
-  overflow: hidden;
-
-  background-color: var(--theme-grey);
-  color: #ffffff;
-
-  font-family:
-    "Barlow Semi Condensed",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    "Helvetica Neue",
-    sans-serif;
-  font-feature-settings: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-size: 1rem;
-  font-stretch: 100%;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  letter-spacing: normal;
-}
-
+/* --------------------------------------------------------------------------
+   Roulette button
+   -------------------------------------------------------------------------- */
 #roulette-button {
   min-width: 300px;
   min-height: 300px;
@@ -235,6 +327,9 @@ header h1 {
   cursor: pointer;
 }
 
+/* --------------------------------------------------------------------------
+   Result area
+   -------------------------------------------------------------------------- */
 #result-wrapper {
   text-align: center;
   width: 100%;
@@ -261,6 +356,7 @@ header h1 {
 }
 
 #beer-info {
+  color: var(--theme-gold);
   font-size: 1.5rem;
 }
 
@@ -275,6 +371,9 @@ header h1 {
   opacity: 0.75;
 }
 
+/* --------------------------------------------------------------------------
+   Animations
+   -------------------------------------------------------------------------- */
 @keyframes spinning {
   0% {
     transform: rotateZ(0deg);
