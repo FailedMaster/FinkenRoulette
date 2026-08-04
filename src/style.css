@@ -1,8 +1,24 @@
-/*
-  Colors: Blue = #0093d1
-          Red = #d10a11
-          Grey = #313131
-*/
+:root {
+  --theme-grey: #313131;
+  --theme-blue: #0093d1;
+  --theme-red: #d10a11;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-blue);
+  border-radius: 999px;
+  width: 5px;
+}
 
 body {
   margin: 0;
@@ -13,12 +29,12 @@ body {
 
 header {
   width: 100%;
-  background-color: #0093d1;
+  background-color: var(--theme-blue);
   box-sizing: border-box;
   padding: 1rem 1.25rem;
   position: relative;
-  z-index: 2;
-  border-bottom: 0.25rem solid #d10a11;
+  z-index: 10;
+  border-bottom: 0.25rem solid var(--theme-red);
 }
 
 .hidden {
@@ -27,6 +43,17 @@ header {
 
 .unclickable {
   pointer-events: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: black;
+  z-index: 5;
 }
 
 .header-content {
@@ -79,12 +106,12 @@ header h1 {
   box-sizing: border-box;
   overflow-y: auto;
 
-  background-color: #0093d1;
+  background-color: var(--theme-blue);
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
   color: #ffffff;
   border-width: 0 0 0.25rem 0.25rem;
   border-style: solid;
-  border-color: #d10a11;
+  border-color: var(--theme-red);
   z-index: 10;
 }
 
@@ -123,7 +150,7 @@ header h1 {
 }
 
 .message-wrapper.info {
-  background-color: #0093d1;
+  background-color: var(--theme-blue);
 }
 
 .message-wrapper .message-icon {
@@ -162,12 +189,13 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 100vh;
   min-height: 100vh;
   width: 100vw;
   max-width: 640px;
   overflow: hidden;
 
-  background-color: #313131;
+  background-color: var(--theme-grey);
   color: #ffffff;
 
   font-family:
@@ -193,14 +221,14 @@ header h1 {
 }
 
 #roulette-button {
-  width: 300px;
-  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
   margin-bottom: 4rem;
   margin-top: 4rem;
   border-radius: 50%;
-  box-shadow: inset 0 0 0.25em 0.75em #d10a11;
+  box-shadow: inset 0 0 0.25em 0.75em var(--theme-red);
   background-image: url("/src/assets/mysterybeer.png");
-  background-color: #0093d2;
+  background-color: var(--theme-blue);
   background-position: center;
   background-size: 75% auto;
   background-repeat: no-repeat;
@@ -210,6 +238,7 @@ header h1 {
 #result-wrapper {
   text-align: center;
   width: 100%;
+  overflow: auto;
 }
 
 #result {
@@ -225,7 +254,7 @@ header h1 {
 }
 
 #beer-name {
-  color: #0093d1;
+  color: var(--theme-blue);
   font-size: 3rem;
   font-weight: bold;
   text-align: center;

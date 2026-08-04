@@ -270,18 +270,18 @@ function renderBeer(beer) {
     .join("");
 }
 
+function toggleMenu() {
+  const burgerMenuPanel = $("#burger-menu-panel");
+  const overlay = $(".overlay");
+
+  burgerMenuPanel.classList.toggle("hidden");
+  overlay.classList.toggle("hidden");
+}
+
 loadBeers();
 
-const burgerButton = $(".burger-menu");
-const burgerMenuPanel = $("#burger-menu-panel");
-
-burgerButton.addEventListener("click", () => {
-  burgerMenuPanel.classList.toggle("hidden");
-  burgerMenuPanel.setAttribute(
-    "aria-hidden",
-    String(burgerMenuPanel.classList.contains("hidden")),
-  );
-});
+$(".burger-menu").addEventListener("click", toggleMenu);
+$(".overlay").addEventListener("click", toggleMenu);
 
 $("#roulette-button").addEventListener("click", async () => {
   const beer = selectRandomBeer();
