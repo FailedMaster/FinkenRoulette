@@ -5,9 +5,16 @@ const $ = document.querySelector.bind(document);
 // -----------------------------------------------------------------------------
 // App state
 // -----------------------------------------------------------------------------
-let beers = [];
-let categories = [];
-let selectedCategories = new Set();
+const CURRENT_VERSION = "1.0.30";
+
+const state = {
+  settings: loadSettings(),
+  history: loadHistory(),
+
+  beers: [],
+  categories: [],
+};
+
 let messageTimeout = null;
 
 // -----------------------------------------------------------------------------
@@ -115,24 +122,12 @@ function isNumber(str) {
  * @returns {string[]} Sorted list of category names.
  */
 function getCategories() {
-  const categoryValues = beers
+  const categoryValues = state.beers
     .map((beer) => beer.Kategorie?.trim())
     .filter(Boolean);
 
   return [...new Set(categoryValues)].sort((a, b) =>
     a.localeCompare(b, "de", { sensitivity: "base" }),
-  );
-}
-
-/**
- * Persist the selected category filters to local storage.
- *
- * @returns {void}
- */
-function saveSelectedCategories() {
-  localStorage.setItem(
-    "selectedCategories",
-    JSON.stringify([...selectedCategories]),
   );
 }
 
@@ -161,6 +156,12 @@ function loadSelectedCategories() {
 
   return new Set(categories);
 }
+
+function saveAvoidDuplicates() {
+  localStorage.setItem("avoidDuplicates", JSON.stringify(avoidDuplicates));
+}
+
+function loadAvoidDuplicates() {}
 
 /**
  * Render the category filter checkboxes inside the menu.
