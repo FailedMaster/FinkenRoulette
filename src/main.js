@@ -5,7 +5,7 @@ const $ = document.querySelector.bind(document);
 // -----------------------------------------------------------------------------
 // App state
 // -----------------------------------------------------------------------------
-const CURRENT_VERSION = "1.0.30";
+const CURRENT_VERSION = "1.1.0";
 
 const state = {
   settings: loadSettings(),
