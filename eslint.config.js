@@ -26,6 +26,9 @@ export default defineConfig([
     files: ["**/*.json"],
     plugins: { json },
     language: "json/json",
+    rules: {
+      "json/no-empty-keys": "off",
+    },
     extends: ["json/recommended"],
   },
   {
