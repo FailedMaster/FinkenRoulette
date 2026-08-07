@@ -55,6 +55,7 @@ For each beer found in the Quickfinder:
 - 'description': The full descriptive text found on the detail page for this beer.
 - 'sizes': All available volumes for the beer, joined with a slash "/" (e.g., "0,33l/0,5l").
 - 'prices': All corresponding prices in Euros without the € sign, joined with a slash "/" (e.g., "3,60/4,50"). Ensure correct 1:1 order relative to 'sizes'.
+- 'alcohol': The alcohol percentage as a string (e.g., "4,9%").
 - 'alcoholfree': Integer 1 if the beer is alcohol-free (0,0%, non-alcoholic, or listed as Alkoholfrei), otherwise 0.
 - 'glutenfree': Integer 1 if explicitly stated or tagged as gluten-free (glutenfrei), otherwise 0.
 - 'hint': Any other extra information, special tags, badges, notes, or warnings found on either the index or detail page.
@@ -85,6 +86,7 @@ For each beer found in the Quickfinder:
               description: { type: Type.STRING },
               sizes: { type: Type.STRING },
               prices: { type: Type.STRING },
+              alcohol: { type: Type.STRING },
               alcoholfree: { type: Type.INTEGER },
               glutenfree: { type: Type.INTEGER },
               hint: { type: Type.STRING },
@@ -97,6 +99,7 @@ For each beer found in the Quickfinder:
               "description",
               "sizes",
               "prices",
+              "alcohol",
               "alcoholfree",
               "glutenfree",
               "hint",
@@ -117,12 +120,18 @@ For each beer found in the Quickfinder:
       "description",
       "sizes",
       "prices",
+      "alcohol",
       "alcoholfree",
       "glutenfree",
       "hint",
     ];
 
-    const json2csvParser = new Parser({ fields });
+    const json2csvParser = new Parser({
+      fields,
+      delimiter: ";",
+      quote: '"',
+      eol: "\n",
+    });
     const csvData = json2csvParser.parse(beers);
 
     const publicDir = path.dirname(csvOutputPath);

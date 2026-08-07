@@ -49,7 +49,8 @@
           </button>
         </div>
       </header>
-      <div id="burger-menu-panel" class="hidden" aria-hidden="true">
+      <div id="overlay-bg" class="overlay hidden"></div>
+      <div id="burger-menu-panel" class="overlay hidden">
         <div class="menu-section">
           <h2>Filter</h2>
           <div id="category-checkboxes"></div>
@@ -64,13 +65,23 @@
           </label>
         </div>
       </div>
+      <div class="history-wrapper overlay hidden">
+        <div class="history-container">
+          <button class="history-close" type="button">×</button>
+          <div>
+            <h1 id="history-title">Verlauf</h1>
+          </div>
+          <div id="history-list"></div>
+        </div>
+      </div>
       <div id="roulette-button"></div>
       <div id="result-wrapper">
         <div id="result">
           <div id="beer-name">↑ Klick hier! ↑</div>
           <div id="beer-info"></div>
           <div id="beer-pricing"></div>
-          <div id="beer-extra"></div>
+          <div id="beer-description"></div>
+          <div id="beer-hint"></div>
         </div>
       </div>
       <div class="message-wrapper hidden">
@@ -80,7 +91,6 @@
           <span class="message-icon"></span>
         </div>
       </div>
-      <div class="overlay hidden"></div>
     </div>
 
     <script type="module" src="/src/main.js"></script>
