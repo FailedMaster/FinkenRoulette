@@ -1,194 +1,194 @@
-Bier-ID;Bier;Beschreibung;Kategorie;Besonderheiten;Alkoholgehalt;Portionsgröße;Preis;Hinweise
-B0001;1664 Kronenbourg;;Fassbier;;6,5;0,33l;4,30;
-B0002;Aktien Zwickl;;Flaschenbier;;5,4;0,5l;4,90;
-B0003;Allgäuer Büble Dunkel;;Fassbier;;5,3;0,3l/0,5l/1,0l;3,30/4,90/8,50;auch als Maß
-B0004;Allgäuer Büble Edelbräu;;Flaschenbier;;5,5;0,5l;4,90;
-B0005;Alpine;;Flaschenbier;;5,0;0,341l;4,80;
-B0006;Arschlecken 350;;Flaschenbier;;4,9;0,33l;3,50;
-B0007;Asahi;;Flaschenbier;;5,2;0,33l;4,50;
-B0008;Astra Kiezmische;;Flaschenbier;;2,5;0,33l;3,30;
-B0009;Astra Kleine Freiheit;;Flaschenbier;;5,1;0,33l;3,30;
-B0010;Astra Rakete;;Flaschenbier;;5,9;0,33l;3,70;
-B0011;Astra Rotlicht;;Flaschenbier;;6,0;0,33l;3,70;
-B0012;Astra Urtyp;;Flaschenbier;;4,9;0,33l;3,30;
-B0013;Augustiner Edelstoff;;Flaschenbier;;5,6;0,5l;4,90;
-B0014;Aventinus Eisbock;;Flaschenbier;;12,0;0,33l;5,50;
-B0015;Barbar Bok;;Flaschenbier;;8,0;0,33l;4,80;
-B0016;Barbar Original;;Flaschenbier;;8,0;0,33l;4,80;
-B0017;Barbar Rouge;;Flaschenbier;;8,0;0,33l;4,80;
-B0018;Bayreuther Hell;;Fassbier;;4,9;0,3l/0,5l/1,0l;3,30/4,90/8,50;auch als Maß
-B0019;Beck's;;Flaschenbier;;4,9;0,33l;3,30;
-B0020;Becks Blue;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,30;
-B0021;Beck's Ice;;Flaschenbier;;2,5;0,33l;3,30;
-B0022;Belhaven Scottish Stout;;Flaschenbier;;7,0;0,5l;5,90;
-B0023;Bergmann Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,70;
-B0024;Bergmann Export;;Flaschenbier;;5,2;0,33l;3,70;
-B0025;Berliner Weisse Himbeer;;Flaschenbier;;3,0;0,33l;3,70;
-B0026;Berliner Weisse Waldmeister;;Flaschenbier;;3,0;0,33l;3,70;
-B0027;Birra Moretti;;Flaschenbier;;4,6;0,33l;3,70;
-B0028;Bitburger 0,0;;Fassbier;alkoholfrei;0,0;0,25l/0,4l;2,70/3,80;
-B0029;Bitburger 0,0 Radler;;Flaschenbier;alkoholfrei;0,0;0,33l;3,30;
-B0030;Bitburger 0,0 Radler Grapefruit;;Flaschenbier;alkoholfrei;0,0;0,33l;3,30;
-B0031;Black Sheep;;Flaschenbier;;5,8;0,33l;4,80;
-B0032;Bloody Bastard Red Ale;;Fassbier;;4,9;0,3l/0,5l;3,90/5,90;
-B0033;Bolten Alt;;Flaschenbier;;4,9;0,33l;3,30;
-B0034;BRLO Rosinenbomber;;Flaschenbier;;10,0;0,33l;5,50;
-B0035;BrewDog Punk AF;;Fassbier;alkoholfrei;<0,5;0,25l/0,5l;3,90/6,00;
-B0036;BrewDog Hazy Jane;;Fassbier;;5,0;0,25l/0,5l;3,90/6,00;
-B0037;BrewDog Punk IPA;;Fassbier;;5,4;0,25l/0,5l;3,90/6,00;
-B0038;Brooklyn Stonewall Inn IPA;;Fassbier;;4,6;0,25l/0,5l;3,90/6,00;
-B0039;Budweiser Budvar;;Fassbier;;5,0;0,3l/0,5l;3,80/5,50;
-B0040;Bundaberg;;Flaschenbier;alkoholfrei;0,0;0,33l;4,00;
-B0041;Carlsberg;;Flaschenbier;;5,0;0,33l;4,00;
-B0042;Carlsberg 0,0;;Flaschenbier;alkoholfrei;0,0;0,33l;4,30;
-B0043;Cerdos Voladores Brown Ale;;Dosenbier;;5,5;0,33l;4,50;
-B0044;Cerdos Voladores IPA sin Alcohol;;Flaschenbier;alkoholfrei;<0,5;0,33l;4,50;
-B0045;Cerdos Voladores Pale Ale;;Dosenbier;glutenfrei;6,0;0,33l;4,50;
-B0046;Cerdos Voladores Session IPA;;Dosenbier;;4,5;0,33l;4,50;
-B0047;Chimay Blonde Dorée;;Flaschenbier;;4,8;0,33l;4,80;
-B0048;Chimay Brune;;Flaschenbier;;7,0;0,33l;4,80;
-B0049;Chimay Cent Cinquante;;Flaschenbier;;10,0;0,75l;11,90;
-B0050;Chimay Grande Reserve;;Flaschenbier;;9,0;0,75l;10,90;
-B0051;Chimay Tripel;;Flaschenbier;;8,0;0,33l;4,80;
-B0052;Coopers Original Pale Ale;;Flaschenbier;;4,5;0,33l;4,80;
-B0053;Coopers Sparkling Ale;;Flaschenbier;;5,8;0,33l;4,80;
-B0054;Coopers Extra Stout;;Flaschenbier;;6,3;0,33l;4,80;
-B0055;Cop Beer;;Flaschenbier;;variiert;variiert;4,30;
-B0056;Corona;;Flaschenbier;;4,5;0,33l;4,50;
-B0057;Delirium Argentum;;Flaschenbier;;7,0;0,33l;4,80;
-B0058;Delirium Deliria;;Flaschenbier;;8,5;0,75l;11,90;
-B0059;Delirium Delirio;;Flaschenbier;alkoholfrei;0,3;0,33l;5,50;
-B0060;Delirium Nocturnum;;Flaschenbier;;8,5;0,33l;4,80;
-B0061;Delirium Red;;Fassbier;;8,5;0,33l;4,80;nur im Sommer vom Fass
-B0062;Delirium Tremens;;Fassbier;;9,0;0,33l;4,80;
-B0063;Desperados;;Flaschenbier;;5,9;0,33l;4,50;
-B0064;Duckstein Weizen;;Flaschenbier;;5,3;0,5l;4,90;
-B0065;Duvel;;Flaschenbier;;8,5;0,33l;4,80;
-B0066;Duvel 666;;Flaschenbier;;6,66;0,33l;4,80;
-B0067;Engel Keller Dunkel;;Flaschenbier;;5,2;0,5l;4,90;
-B0068;Engel Keller Hell;;Flaschenbier;;5,3;0,5l;4,90;
-B0069;Engel Kellerbier Hell Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,30;
-B0070;Estrella Damm;;Flaschenbier;;5,4;0,33l;4,00;
-B0071;Estrella Daura Damm;;Flaschenbier;glutenfrei;5,4;0,33l;4,00;
-B0072;Estrella Inedit;;Flaschenbier;;4,8;0,75l;10,90;
-B0073;finkenbeer;;Flaschenbier;;5,5;0,5l;4,90;
-B0074;Filou Belgian Tripel;;Fassbier;;8,5;0,25l;4,00;
-B0075;Flensburger Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,30;
-B0076;Flensburger Pils;;Flaschenbier;;4,8;0,33l;3,30;
-B0077;Föroya Pilsnar;;Flaschenbier;;4,6;0,33l;4,80;
-B0078;Früh Kölsch;;Flaschenbier;;4,8;0,33l;3,30;
-B0079;Fuller's Honey Dew;;Flaschenbier;;5,0;0,5l;5,90;
-B0080;Fuller's IPA;;Flaschenbier;;5,3;0,5l;5,90;
-B0081;Fuller's London Porter;;Flaschenbier;;5,4;0,5l;5,90;
-B0082;Fuller's London Pride;;Flaschenbier;;4,7;0,5l;5,90;
-B0083;Gösser Naturradler;;Fassbier;;2,0;0,3l/0,5l;3,30/4,90;
-B0084;Green Island Stout;;Flaschenbier;;5,8;0,33l;4,80;
-B0085;Grimbergen Dubbel;;Fassbier;;6,5;0,25l;3,80;
-B0086;Guinness 0,0;;Dosenbier;alkoholfrei;0,0;0,44l;5,90;
-B0087;Guinness Stout;;Fassbier;;4,2;0,3l/0,5l;3,90/5,90;
-B0088;Gurkenradler;;Flaschenbier;;2,4;0,33l;3,70;+ 1 Spreewaldgurke 2,50
-B0089;Haake Beck Kräusen;;Fassbier;;4,9;0,3l/0,5l;3,30/4,90;
-B0090;Heineken 0,0;;Flaschenbier;alkoholfrei;0,0;0,33l;3,30;
-B0091;Heineken Extra Cold;;Fassbier;;5,0;0,3l/0,5l;3,80/5,50;
-B0092;Hövels Original;;Flaschenbier;;5,5;0,5l;4,90;
-B0093;Hopacabana;;Fassbier;;variiert;0,25l/0,5l;4,20/6,90;
-B0094;Hop House 13 Lager;;Fassbier;;5,0;0,3l/0,5l;3,90/5,90;
-B0095;Innis & Gunn Caribbean Rum Cask;;Flaschenbier;;6,8;0,33l;4,80;
-B0096;Innis & Gunn Lager;;Flaschenbier;;4,6;0,33l;4,80;
-B0097;Innis & Gunn Original;;Flaschenbier;;6,6;0,33l;4,80;
-B0098;Jever;;Flaschenbier;;4,9;0,33l;3,30;
-B0099;Karlovacko;;Flaschenbier;;5,4;0,33l;4,00;
-B0100;Kasteel Barista Chocolate;;Flaschenbier;;11,0;0,33l;5,50;
-B0101;Kasteel Cuvée du Château;;Flaschenbier;;11,0;0,33l;5,50;
-B0102;Kasteel Donker;;Flaschenbier;;11,0;0,33l;5,50;
-B0103;Kasteel Rouge;;Flaschenbier;;8,0;0,33l;4,80;
-B0104;Kasteel Rouge 0,0;;Flaschenbier;alkoholfrei;0,0;0,33l;4,80;
-B0105;Kilkenny Red Ale;;Fassbier;;4,2;0,3l/0,5l;3,90/5,90;
-B0106;Kasteel Rubus Framboise;;Fassbier;;7,0;0,25l;4,30;
-B0107;Kirin Ichiban 0,0;;Flaschenbier;alkoholfrei;0,0;0,33l;4,50;
-B0108;Kirin Ichiban;;Flaschenbier;;5,0;0,33l;4,50;
-B0109;König Pilsener;;Fassbier;;4,9;0,25l/0,4l/1l/2l;2,70/3,80/8,50/16,00;"auch als Maß; Tulpe; 20,00 Pfand"
-B0110;König Pilsener Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,30;
-B0111;Kona Longboard;;Flaschenbier;;4,6;0,355l;4,80;
-B0112;Köstritzer Schwarzbier;;Flaschenbier;;4,8;0,5l;4,90;
-B0113;La Chouffe Blonde;;Fassbier;;8,0;0,33l;4,80;nur im Sommer vom Fass
-B0114;La Chouffe Blonde;;Flaschenbier;;8,0;0,33l;4,80;
-B0115;La Chouffe Cherry;;Flaschenbier;;6,5;0,33l;4,80;
-B0116;La Chouffe Sans Alcool;;Flaschenbier;alkoholfrei;0,4;0,33l;4,80;
-B0117;La Guillotine;;Flaschenbier;;8,5;0,33l;4,80;
-B0118;Lahnsteiner Rohminator;;Flaschenbier;;10,2;0,33l;5,50;
-B0119;La Trappe Epos;;Flaschenbier;alkoholfrei;0,0;0,33l;4,80;
-B0120;La Trappe Isid'or;;Flaschenbier;;7,5;0,33l;4,80;
-B0121;La Trappe Nillis 0,0;;Flaschenbier;alkoholfrei;0,0;0,33l;4,80;
-B0122;La Trappe Witte Trappist;;Flaschenbier;;5,5;0,75l;10,90;
-B0123;La Trappe Witte Trappist;;Fassbier;;5,5;0,33l;4,80;nur im Sommer vom Fass
-B0124;Leffe Blonde;;Fassbier;;6,6;0,25l;3,80;
-B0125;Leffe Bruin;;Flaschenbier;;6,5;0,33l;4,80;
-B0126;Leikeim Steinbier;;Fassbier;;5,8;0,5l/1,0l;4,90/8,50;auch als Maß
-B0127;Liefmans Fruitesse;;Flaschenbier;;3,5;0,25l;4,00;
-B0128;Liefmans Fruitesse 0,0;;Flaschenbier;alkoholfrei;0,0;0,25l;4,00;
-B0129;Lindemans Apple;;Flaschenbier;;3,5;0,25l;4,00;
-B0130;Lindemans Cassis;;Flaschenbier;;3,5;0,25l;4,00;
-B0131;Lindemans Framboise;;Flaschenbier;;2,5;0,25l;4,00;
-B0132;Lindemans Kriek;;Fassbier;;3,5;0,25l;4,00;
-B0133;Lindemans Pecheresse;;Flaschenbier;;2,5;0,25l;4,00;
-B0134;Löwenbräu Original;;Fassbier;;5,2;0,3l/0,5l/1,0l;3,30/4,90/8,50;auch als Maß
-B0135;Lucky Buddha;;Flaschenbier;;4,8;0,33l;4,80;
-B0136;Maisels and Friends West Coast IPA;;Fassbier;;6,6;0,3l/0,5l;3,90/5,90;
-B0137;Maisels & Friends IPA Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,33l;3,70;
-B0138;Mongozo Banana;;Flaschenbier;glutenfrei;3,6;0,33l;4,80;
-B0139;Mongozo Coconut;;Flaschenbier;glutenfrei;3,6;0,33l;4,80;
-B0140;Mongozo Cocos;;Fassbier;;3,6;0,33l;4,80;nur im Sommer vom Fass
-B0141;Mongozo Mango;;Flaschenbier;glutenfrei;3,6;0,33l;4,80;
-B0142;Moosehead Cracked Canoe;;Flaschenbier;;3,5;0,341l;4,80;
-B0143;Moosehead Lager;;Flaschenbier;;5,0;0,341l;4,80;
-B0144;Moosehead Premium Dry;;Flaschenbier;;5,5;0,341l;4,80;
-B0145;Mythos;;Flaschenbier;;5,0;0,33l;3,70;
-B0146;Newcastle Brown Ale;;Fassbier;;4,7;0,3l/0,5l;3,90/5,90;
-B0147;Paulaner Salvator;;Flaschenbier;;7,9;0,5l;5,90;
-B0148;Paulaner Zitrone 0,0;;Flaschenbier;alkoholfrei;0,0;0,5l;4,90;
-B0149;Peroni;;Flaschenbier;;5,1;0,33l;3,70;
-B0150;Pilsener Urquell;;Flaschenbier;;4,4;0,33l;3,70;
-B0151;Rheingold Alt;;Flaschenbier;;4,8;0,33l;3,70;
-B0152;Rheingold Pils;;Flaschenbier;;5,0;0,33l;3,70;
-B0153;Robinson Trooper Iron Maiden;;Flaschenbier;;4,7;0,5l;5,90;
-B0154;Rodenbach Fruitage;;Flaschenbier;;3,9;0,25l;4,00;
-B0155;Samuel Adams Boston Lager;;Flaschenbier;;4,9;0,355l;4,80;
-B0156;San Miguel;;Flaschenbier;;5,0;0,2l;2,70;
-B0157;Schlenkerla Rauchbier;;Flaschenbier;;5,1;0,5l;4,90;
-B0158;Schlösser Alt;;Fassbier;;4,8;0,25l/0,4l;2,70/3,80;
-B0159;Schneider Aventinus;;Fassbier;;8,2;0,3l/0,5l;3,80/5,50;
-B0160;Schneider Helles Landbier;;Fassbier;;4,9;0,3l/0,5l/1,0l;3,30/4,90/8,50;auch als Maß
-B0161;Schneider TAP3 Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,5l;4,90;
-B0162;Schorsch 57 %;;Flaschenbier;;57,0;0,04l;33,33;
-B0163;Schorschbock 13;;Flaschenbier;;13,0;0,33l;8,90;
-B0164;Schöfferhofer Grapefruit;;Flaschenbier;;2,5;0,33l;3,30;
-B0165;Sierra Nevada Pale Ale;;Flaschenbier;;5,6;0,355l;4,80;
-B0166;Sierra Nevada Torpedo;;Flaschenbier;;7,2;0,355l;4,80;
-B0167;Siren Broken Dream Nitro Stout;;Dosenbier;;6,2;0,33l;4,50;
-B0168;Siren Lumina Session IPA;;Dosenbier;;4,2;0,33l;4,50;
-B0169;Siren Soundwave IPA;;Dosenbier;;5,6;0,33l;4,50;
-B0170;Spaten Alkoholfrei;;Flaschenbier;alkoholfrei;<0,5;0,5l;4,90;
-B0171;Strongbow Dry Cider;;Fassbier;;5,0;0,3l/0,5l;3,90/5,90;
-B0172;Superfreunde Rookie IPA;;Dosenbier;;6,0;0,33l;4,50;
-B0173;Tannenzäpfle;;Flaschenbier;;5,1;0,33l;3,30;
-B0174;Tennents 1885 Lager;;Dosenbier;;5,0;0,5l;5,90;
-B0175;Tennents Extra;;Flaschenbier;;9,0;0,33l;4,50;
-B0176;Tennents IPA;;Flaschenbier;;6,2;0,33l;4,50;
-B0177;Tennents Scotch Ale;;Flaschenbier;;9,0;0,33l;4,50;
-B0178;Theo König Zwickel;;Fassbier;;5,3;0,3l/0,5l;3,30/4,90;
-B0179;Tiger;;Flaschenbier;;5,0;0,33l;4,50;
-B0180;Trappistes Rochefort 8;;Flaschenbier;;9,2;0,33l;4,80;
-B0181;Tripel Karmeliet;;Flaschenbier;;8,4;0,33l;4,80;
-B0182;Veltins Pilsener;;Flaschenbier;;4,8;0,33l;3,30;
-B0183;Vocation Heart And Soul;;Dosenbier;;4,4;0,33l;4,50;
-B0184;Vocation Hop, Skip & Juice;;Dosenbier;;5,7;0,33l;4,50;
-B0185;Weihenstephan Vitus;;Fassbier;;7,5;0,3l/0,5l;3,80/5,50;
-B0186;Weiherer Grünhopfen Pils;;Flaschenbier;;5,1;0,5l;4,90;
-B0187;Weiherer Rolator;;Flaschenbier;;8,8;0,5l;5,90;
-B0188;Weiherer Weizenbock;;Flaschenbier;;6,8;0,5l;5,90;
-B0189;Westmalle Dubbel;;Flaschenbier;;7,0;0,33l;4,80;
-B0190;Wychwood Hobgoblin Ruby;;Flaschenbier;;5,2;0,5l;5,90;
-B0191;Wychwood King Goblin;;Flaschenbier;;6,6;0,5l;5,90;
-B0192;X2 Energy;;Flaschenbier;;5,0;0,33l;4,00;
-B0193;X2 Spritz;;Flaschenbier;;5,0;0,33l;4,00;
+"id";"name";"category";"page";"description";"sizes";"prices";"alcohol";"alcoholfree";"glutenfree";"hint"
+"BD001";"1664 Kronenbourg";"Fassbiere";"Seite 15";"1664 Kronenbourg ist ein französisches Premiumbier mit einem eleganten, frischen Geschmack. Fein abgestimmte Malz- und Hopfennoten sorgen für eine harmonische Balance, abgerundet durch eine leichte Zitrusnote.";"0,33l";"4,30";"6,5%";0;0;"Frankreich"
+"BD002";"Aktien Zwickl";"Flaschenbiere";"Seite 29";"Ein naturtrübes Zwicklbier mit ausgewogenen Malz- und Hopfenaromen. Ungefiltert und mit 5,4 % vol. ein frischer, authentischer Genuss aus der Brauerei Aktien.";"0,5l";"4,90";"5,4%";0;0;""
+"BD003";"Allgäuer Büble Dunkel";"Fassbiere";"Seite 13";"Allgäuer Büble Dunkel ist ein traditionelles, bayerisches Bier mit vollmundigem Malzcharakter, feinen Röstnoten und einer dezenten Süße. Es wird nach altbewährter Braukunst hergestellt und überzeugt durch seinen kräftigen, harmonischen Geschmack.";"0,3l/0,5l/1,0l";"3,30/4,90/8,50";"5,3%";0;0;"auch als Maß 1,0 l/8,50"
+"BD004";"Allgäuer Büble Edelbräu";"Flaschenbiere";"Seite 29";"Ein Bier wie die Allgäuer Alpen – rein, frisch und authentisch. Dieses Edelbräu mit 5,5 % vol. beeindruckt mit feiner Malzigkeit und einer milden Hopfennote.";"0,5l";"4,90";"5,5%";0;0;""
+"BD005";"Alpine";"Flaschenbiere";"Seite 34";"Ein frisches, hopfenbetontes Lager mit 5,0 % vol., das mit Zitrus- und tropischen Fruchtaromen begeistert. Ein Bier, das Craft Beer Fans begeistert.";"0,341l";"4,80";"5,0%";0;0;"American Craft Brews"
+"BD006";"Arschlecken 350";"Flaschenbiere";"Seite 10";"Ein deutsches Craft Beer mit kräftiger Hopfenbitterkeit, komplexen Aromen und feiner Malz-Hopfen-Balance. Leicht fruchtig – ein Highlight für Bierliebhaber.";"0,33l";"3,50";"4,9%";0;0;"Exklusiv"
+"BD007";"Asahi";"Flaschenbiere";"Seite 33";"Leicht, spritzig und mit klarer Frische. Die subtile Bitterkeit macht Asahi zum idealen Begleiter für jeden Anlass.";"0,33l";"4,50";"5,2%";0;0;"Asiatische Biere"
+"BD008";"Astra Kiezmische";"Flaschenbiere";"Seite 26";"Der Mix für echte Kiez-Kenner. Fruchtige Limette trifft auf herbes Bier, mit nur 2,5 % vol. der ideale Durstlöscher für entspannte Sommertage.";"0,33l";"3,30";"2,5%";0;0;"Trendbiere"
+"BD009";"Astra Kleine Freiheit";"Flaschenbiere";"Seite 27";"Helles, süffiges und leichtes Bier. Die helle Variante des Kultbiers, die unkomplizierten Genuss verspricht.";"0,33l";"3,30";"5,1%";0;0;""
+"BD010";"Astra Rakete";"Flaschenbiere";"Seite 26";"Spritzige Zitrone, ein Schuss Energie und 5,9 % vol. machen diese Mischung zur Partybombe. Perfekt für lange Nächte mit Freunden.";"0,33l";"3,70";"5,9%";0;0;"Trendbiere"
+"BD011";"Astra Rotlicht";"Flaschenbiere";"Seite 27";"Intensiv malzig, süffig und mit 6,0 % vol. Alkohol. Ein kräftiges Bier für alle, die es gerne etwas voller mögen.";"0,33l";"3,70";"6,0%";0;0;""
+"BD012";"Astra Urtyp";"Flaschenbiere";"Seite 27";"Hamburger Kult in der Flasche – malzig, würzig und mit 4,9 % vol. ein bodenständiges Bier für jede Gelegenheit.";"0,33l";"3,30";"4,9%";0;0;""
+"BD013";"Augustiner Edelstoff";"Flaschenbiere";"Seite 29";"Ein Klassiker aus München. Das Helle begeistert mit vollmundigem Geschmack, dezenter Malzsüße und einem Alkoholgehalt von 5,6 % vol. Perfekt für alle, die bayrische Braukunst lieben.";"0,5l";"4,90";"5,6%";0;0;""
+"BD014";"Aventinus Eisbock";"Flaschenbiere";"Seite 24";"Das kräftige Weizenstarkbier überzeugt mit Noten von Trockenfrüchten, Banane und dunkler Schokolade. Mit seiner vollmundigen Textur und 12,0 % vol. ist es ein Highlight für Kenner. Perfekt als Begleiter zu Schokoladendesserts.";"0,33l";"5,50";"12,0%";0;0;"Starkbiere"
+"BD015";"Barbar Bok";"Flaschenbiere";"Seite 20";"Ein dunkles Honigbier mit 8,0 % vol., das mit reichem Malzkörper, Karamellnoten und einem Hauch von Gewürzen überzeugt. Perfekt für kühlere Tage oder einen gemütlichen Abend.";"0,33l";"4,80";"8,0%";0;0;"Belgische Biere"
+"BD016";"Barbar Original";"Flaschenbiere";"Seite 23";"Ein honiggelbes Starkbier mit 8,0 % vol., das durch seinen süßen, würzigen Geschmack und seine feine Honignote besticht. Ein Klassiker für Genießer.";"0,33l";"4,80";"8,0%";0;0;"belgisch"
+"BD017";"Barbar Rouge";"Flaschenbiere";"Seite 23";"Eine fruchtige Version des Barbar: Mit natürlichen Kirschnoten, würzigem Honig und einem süßen, doch ausgewogenen Charakter verführt dieses Bier.";"0,33l";"4,80";"8,0%";0;0;"belgisch"
+"BD018";"Bayreuther Hell";"Fassbiere";"Seite 12";"Ein traditionelles bayerisches Lagerbier mit mildem, malzigem Geschmack und einer dezenten, hopfigen Note. Sein ausgewogener Charakter und die hohe Braukunst machen es zu einem echten Genuss – frisch gezapft und perfekt für jede Gelegenheit.";"0,3l/0,5l/1,0l";"3,30/4,90/8,50";"4,9%";0;0;"auch als Maß 1,0 l/8,50"
+"BD019";"Beck’s";"Flaschenbiere";"Seite 27";"Der internationale Klassiker aus Bremen – frisch, mild und mit angenehmer Hopfenbittere. Mit 4,9 % vol. ein Premium-Pilsener, das weltweit geschätzt wird.";"0,33l";"3,30";"4,9%";0;0;""
+"BD020";"Becks Blue";"Flaschenbiere";"Seite 36";"Alkoholfrei und dennoch voll im Geschmack. Dieses Pils besticht durch seine Leichtigkeit und eine feine Hopfenbittere.";"0,33l";"3,30";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD021";"Beck’s Ice";"Flaschenbiere";"Seite 26";"Klar, erfrischend und mit einer feinen Limettennote. Das leichte Biermischgetränk mit 2,5 % vol. ist ein moderner Klassiker für unvergessliche Abende.";"0,33l";"3,30";"2,5%";0;0;"Trendbiere"
+"BD022";"Belhaven Scottish Stout";"Flaschenbiere";"Seite 31";"Ein cremiges Stout mit feinen Schokoladen- und Kaffeearomen, abgerundet durch eine leichte Rauchnote. Mit 7,0 % vol. ein typisch schottischer Genuss für Liebhaber dunkler Biere.";"0,5l";"5,90";"7,0%";0;0;"Britische Biere"
+"BD023";"Bergmann Alkoholfrei";"Flaschenbiere";"Seite 37";"Das Dortmunder Original – alkoholfrei und voll im Geschmack. Ein herbes, traditionelles Bier ohne Kompromisse.";"0,33l";"3,70";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD024";"Bergmann Export";"Flaschenbiere";"Seite 25";"Ein Dortmunder Exportbier mit 5,2 % vol. Alkohol. Malzig, leicht süßlich und angenehm würzig – eine Hommage an die Bergbau-Tradition der Region, ideal zu rustikalen Gerichten.";"0,33l";"3,70";"5,2%";0;0;"Ruhrpott-Biere"
+"BD025";"Berliner Weisse Himbeer";"Flaschenbiere";"Seite 26";"Fruchtig-süß und herrlich erfrischend. Die rote Variante der Berliner Weisse begeistert mit Himbeernoten und einem Hauch Säure. Ein leichtes Vergnügen mit 3,0 % vol. Alkohol.";"0,33l";"3,70";"3,0%";0;0;"Trendbiere"
+"BD026";"Berliner Weisse Waldmeister";"Flaschenbiere";"Seite 26";"Die grüne Versuchung – spritzig, leicht, und mit unverwechselbarem Waldmeistergeschmack. Mit nur 3,0 % vol. ein erfrischendes Sommergetränk, das Berliner Tradition modern interpretiert.";"0,33l";"3,70";"3,0%";0;0;"Trendbiere"
+"BD027";"Birra Moretti";"Flaschenbiere";"Seite 32";"Dieses italienische Lagerbier besticht durch seinen vollmundigen Geschmack und eine angenehme Malzsüße. Mit 4,6 % vol. ein echter Klassiker der italienischen Bierkultur.";"0,33l";"3,70";"4,6%";0;0;"Europäische Biere"
+"BD028";"Bitburger 0,0";"Fassbiere";"Seite 18";"Bitburger 0,0 ist ein erfrischendes alkoholfreies Bier, das mit dem klassischen Bitburger Geschmack überzeugt. Durch sorgfältige Braukunst und die Entfernung des Alkohols bleibt der vollmundige, hopfige Charakter erhalten – ideal für alle, die auf Alkohol verzichten möchten, aber nicht auf Genuss!";"0,25l/0,4l";"2,70/3,80";"0,0%";1;0;"vom Fass"
+"BD029";"Bitburger 0,0 Radler";"Flaschenbiere";"Seite 36";"Das Radler mit seinem mild-herben Geschmack und einer feinen Malznote überzeugt. Perfekt gekühlt ein idealer Begleiter für jede Gelegenheit – ob nach dem Sport oder an heißen Tagen.";"0,33l";"3,30";"0,0%";1;0;"Alkoholfreie Biere"
+"BD030";"Bitburger 0,0 Radler Grapefruit";"Flaschenbiere";"Seite 36";"Erfrischend-fruchtiges Radler mit 0,0 % vol., das herbes Bitburger Bier mit spritziger Grapefruit-Limonade vereint. Perfekt für heiße Tage und aktiven Genuss.";"0,33l";"3,30";"0,0%";1;0;"Alkoholfreie Biere"
+"BD031";"Black Sheep";"Flaschenbiere";"Seite 32";"Black Shell von der Föroya Bryggjarí ist ein kräftiges, tiefschwarzes Stout, das mit intensiven Noten von geröstetem Malz, Kaffee und dunkler Schokolade begeistert.";"0,33l";"4,80";"5,8%";0;0;"Färöer Inseln"
+"BD032";"Bloody Bastard Red Ale";"Fassbiere";"Seite 17";"Bloody Bastard Red Ale ist ein kräftiges, rotes Ale mit einer komplexen Malznote und einem Hauch von Karamell und Röstung. Die ausgewogene Bitterkeit sorgt für einen spannungsgeladenen, aber weichen Abgang, der dieses Bier zu einem besonderen Erlebnis für Ale-Liebhaber macht.";"0,3l/0,5l";"3,90/5,90";"4,9%";0;0;""
+"BD033";"Bolten Alt";"Flaschenbiere";"Seite 25";"Das älteste Altbier der Welt aus Korschenbroich. Mit 4,9 % vol. Alkohol, harmonisch malzig und mit sanften Röstaromen. Ein Bier, das den Charme des Niederrheins in jedem Schluck spürbar macht.";"0,33l";"3,30";"4,9%";0;0;"Ruhrpott-Biere"
+"BD034";"BRLO Rosinenbomber";"Flaschenbiere";"Seite 24";"Ein innovatives Craft Beer mit 10,0 % vol. und einer einzigartigen Rosinennote. Dunkel und aromatisch, perfekt für kalte Abende und als Begleitung zu würzigem Käse oder Schokoladenkuchen.";"0,33l";"5,50";"10,0%";0;0;"Starkbiere"
+"BD035";"BrewDog Punk AF";"Fassbiere";"Seite 18";"Voller Geschmack eines klassischen IPAs – fast ohne Alkohol. Mit kräftigen Hopfenaromen von tropischen Früchten und Zitrusnoten überzeugt es mit einer angenehmen Bitterkeit und einer erfrischenden Leichtigkeit.";"0,25l/0,5l";"3,90/6,00";"< 0,5%";1;0;"Schottland"
+"BD036";"BrewDog Hazy Jane";"Fassbiere";"Seite 16";"BrewDog Hazy Jane ist ein NEIPA mit einer dichten, trüben Textur und fruchtigen Aromen von Mango und Zitrusfrüchten. Vollmundig und mit einem Hauch von Süße, bietet dieses Bier eine sanfte, aber dennoch kräftige Bitterkeit, die es zu einem erfrischenden Genuss macht.";"0,25l/0,5l";"3,90/6,00";"5,0%";0;0;"Schottland"
+"BD037";"BrewDog Punk IPA";"Fassbiere";"Seite 16";"BrewDog Punk IPA ist ein freches Craft Beer mit intensiven Hopfennoten. Frisch, spritzig und aromatisch – die Kombination aus tropischen Früchten und einer feinen Bitterkeit sorgt für ein einzigartiges Geschmackserlebnis. Ein Muss für IPA-Fans und Entdecker neuer Biere!";"0,25l/0,5l";"3,90/6,00";"5,4%";0;0;"Schottland"
+"BD038";"Brooklyn Stonewall Inn IPA";"Fassbiere";"Seite 17";"Ein erfrischendes, hopfenbetontes India Pale Ale mit fruchtigen Zitrus- und Tropenfruchtaromen. Sein ausgewogenes Geschmacksprofil vereint eine angenehme Bitterkeit mit einer leichten Malzsüße und sorgt für einen harmonischen, lebendigen Trinkgenuss. Inspiriert von der Vielfalt und Freiheit New Yorks.";"0,25l/0,5l";"3,90/6,00";"4,6%";0;0;"USA"
+"BD039";"Budweiser Budvar";"Fassbiere";"Seite 12";"Budweiser Budvar ist ein tschechisches Premium-Lager mit vollmundigem Malzaroma und einer feinen, ausgewogenen Hopfenbittere. Es wird aus hochwertigem Saazer Hopfen und mährischem Malz gebraut, was ihm seinen charakteristischen Geschmack verleiht.";"0,3l/0,5l";"3,80/5,50";"5,0%";0;0;"Tschechien"
+"BD040";"Bundaberg";"Flaschenbiere";"Seite 36";"Eine alkoholfreie Bierspezialität aus Australien mit süßlich-frischen Ingweraromen. Ideal für alle, die einen besonderen, würzigen Geschmack suchen.";"0,33l";"4,00";"0,0%";1;0;"Alkoholfreie Biere"
+"BD041";"Carlsberg";"Flaschenbiere";"Seite 32";"Der dänische Klassiker mit 5,0 % vol. begeistert durch seinen frischen, ausgewogenen Geschmack. Perfekt für gesellige Momente mit Freunden.";"0,33l";"4,00";"5,0%";0;0;"Europäische Biere"
+"BD042";"Carlsberg 0,0";"Flaschenbiere";"Seite 37";"Ein erfrischendes, alkoholfreies Lagerbier mit klarem Geschmack und feiner Hopfenbittere. Perfekt für jede Gelegenheit.";"0,33l";"4,30";"0,0%";1;0;"Alkoholfreie Biere"
+"BD043";"Cerdos Voladores Brown Ale";"Dosenbiere";"Seite 35";"Malzig und aromatisch, mit Karamell- und Nussnoten. Dieses Brown Ale überzeugt durch einen vollmundigen Geschmack.";"0,33l";"4,50";"5,5%";0;0;""
+"BD044";"Cerdos Voladores IPA sin Alcohol";"Flaschenbiere";"Seite 36";"Voll im Geschmack trotz fast null Prozent Alkohol – mit fruchtigen Hopfennoten und einer angenehmen Bitterkeit, die den Durst nach einem IPA stillt.";"0,33l";"4,50";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD045";"Cerdos Voladores Pale Ale (glutenfrei)";"Dosenbiere";"Seite 35";"Frisch und fruchtig, mit tropischen Aromen und einer ausgewogenen Bitterkeit – ideal für den Start in den Abend oder als Snackbegleiter.";"0,33l";"4,50";"6,0%";0;1;"glutenfrei"
+"BD046";"Cerdos Voladores Session IPA";"Dosenbiere";"Seite 35";"Tropische Aromen und eine feine Bitterkeit zeichnen dieses erfrischende Session IPA aus. Perfekt für längere Trinkgenüsse bei jeder Gelegenheit.";"0,33l";"4,50";"4,5%";0;0;""
+"BD047";"Chimay Blonde Dorée";"Flaschenbiere";"Seite 20";"Ein helles Klosterbier mit 4,8 % vol., das mit seiner Leichtigkeit, floralen Noten und mildem Malzcharakter überrascht. Perfekt für einen entspannten Einstieg in die Welt der Trappistenbiere.";"0,33l";"4,80";"4,8%";0;0;"Belgische Biere"
+"BD048";"Chimay Brune";"Flaschenbiere";"Seite 20";"Dieses kräftige Dubbel mit 7,0 % vol. begeistert mit Aromen von Trockenfrüchten, Gewürzen und leichtem Röstmalz. Ein echter Klassiker für Genießer.";"0,33l";"4,80";"7,0%";0;0;"Belgische Biere"
+"BD049";"Chimay Cent Cinquante";"Flaschenbiere";"Seite 10";"Chimay Cent Cinquante ist ein edles belgisches Trappistenbier, das zu Ehren des 150-jährigen Jubiläums der Chimay-Brauerei gebraut wurde. Mit einem reichen, malzigen Geschmack und feinen Noten von Trockenfrüchten und Karamell bietet es ein einzigartiges Trinkerlebnis. Ideal für Bierliebhaber.";"0,75l";"11,90";"10,0%";0;0;"Exklusiv"
+"BD050";"Chimay Grande Reserve";"Flaschenbiere";"Seite 10";"Chimay Grande Reserve ist ein belgisches Trappistenbier mit kräftigem, malzigem Geschmack und einer feinen, fruchtigen Note. Es wird in einem einzigartigen, dunkelbraunen Flaschenglas abgefüllt und reift mit der Zeit, was ihm zusätzliche Komplexität verleiht. Ideal für Kenner.";"0,75l";"10,90";"9,0%";0;0;"Exklusiv"
+"BD051";"Chimay Tripel";"Flaschenbiere";"Seite 20";"Das goldene Chimay mit 8,0 % vol. verführt mit reifen Fruchtnoten, subtiler Bitterkeit und würzigem Charakter. Es vereint belgische Brautradition und Eleganz in jedem Schluck.";"0,33l";"4,80";"8,0%";0;0;"Belgische Biere"
+"BD052";"Coopers Original Pale Ale";"Flaschenbiere";"Seite 33";"Fruchtig-herb und angenehm bitter, mit einer natürlichen Trübung – ein australischer Klassiker, frisch, ausgewogen und charaktervoll.";"0,33l";"4,80";"4,5%";0;0;"Australische Biere"
+"BD053";"Coopers Sparkling Ale";"Flaschenbiere";"Seite 33";"Vollmundig und lebendig, mit feiner Kohlensäure und sanfter Malznote – ein prickelnder Genuss, traditionell gebraut und unverwechselbar.";"0,33l";"4,80";"5,8%";0;0;"Australische Biere"
+"BD054";"Coopers Extra Stout";"Flaschenbiere";"Seite 33";"Kräftig und intensiv, mit Röstaromen von Kaffee und Schokolade – ein dunkler Genussmoment, wärmend, markant und ausdrucksstark.";"0,33l";"4,80";"6,3%";0;0;"Australische Biere"
+"BD055";"Cop Beer";"Flaschenbiere";"Seite 34";"Ein amerikanisches Lagerbier, das in einer Papiertüte verpackt verkauft wird, um es vor den Cops zu verstecken. Daher variiert es auch in Größe und Volumen.";"variiert";"4,30";"variiert";0;0;"in einer Papiertüte verpackt"
+"BD056";"Corona";"Flaschenbiere";"Seite 26";"Der Strandklassiker schlechthin – leicht, erfrischend und perfekt mit einer Limette im Flaschenhals. Mit 4,5 % vol. das ultimative Sommerbier.";"0,33l";"4,50";"4,5%";0;0;"Trendbiere"
+"BD057";"Delirium Argentum";"Flaschenbiere";"Seite 21";"Ein bernsteinfarbenes Bier mit 7,0 % vol., das durch seinen Hopfencharakter, Zitrusnoten und eine dezente Würze besticht. Ein modern inspiriertes Bier mit belgischem Charme.";"0,33l";"4,80";"7,0%";0;0;""
+"BD058";"Delirium Deliria";"Flaschenbiere";"Seite 10";"Delirium Deliria ist ein belgisches Spezialbier, das zu Ehren des Internationalen Frauentages von Frauen gebraut wurde. Mit einem fruchtigen, blumigen Aroma und einer feinen Bitterkeit bietet es ein ausgewogenes Geschmackserlebnis.";"0,75l";"11,90";"8,5%";0;0;"Exklusiv"
+"BD059";"Delirium Delirio";"Flaschenbiere";"Seite 36";"Alkoholfreies Bier aus Belgien mit kräftigem, leicht würzigem Geschmack. Auch ohne Alkohol begeistert es.";"0,33l";"5,50";"0,3%";1;0;"Alkoholfreie Biere"
+"BD060";"Delirium Nocturnum";"Flaschenbiere";"Seite 21";"Ein dunkles, vollmundiges Bier mit 8,5 % vol., das Aromen von Schokolade, Gewürzen und dunklen Früchten bietet. Die Nacht gehört Delirium!";"0,33l";"4,80";"8,5%";0;0;""
+"BD061";"Delirium Red";"Fassbiere";"Seite 15";"Ein fruchtiges belgisches Bier mit einem intensiven Geschmack von Kirschen und Beeren. Die süße Fruchtigkeit wird von einer dezenten Malzbasis und einer feinen Säure begleitet.";"0,33l";"4,80";"8,5%";0;0;"nur im Sommer vom Fass / Und im Winter aus der Flasche"
+"BD062";"Delirium Tremens";"Fassbiere";"Seite 15";"Delirium Tremens ist ein ikonisches belgisches Bier mit kräftigem Charakter und komplexen Aromen. Fruchtige Noten von Apfel und Banane treffen auf eine würzige Wärme, begleitet von einem Hauch Alkohol.";"0,33l";"4,80";"9,0%";0;0;"Belgischer Klassiker"
+"BD063";"Desperados";"Flaschenbiere";"Seite 26";"Bier mit einem Kick – die Kombination aus Tequila-Aromen und 5,9 % vol. sorgt für eine würzige Frische, die jede Party belebt.";"0,33l";"4,50";"5,9%";0;0;"Trendbiere"
+"BD064";"Duckstein Weizen";"Flaschenbiere";"Seite 27";"Weizenbier neu interpretiert – fruchtig, spritzig und mit einer dezenten Karamellnote. Mit 5,3 % vol. ein Highlight für Liebhaber.";"0,5l";"4,90";"5,3%";0;0;""
+"BD065";"Duvel";"Flaschenbiere";"Seite 20";"Ein ikonisches belgisches Starkbier mit leuchtender, goldener Farbe und feiner Schaumkrone. Fruchtige Noten, dezente Bitterkeit und ein überraschend trockener Abgang machen es zu einem Meisterwerk mit 8,5 % vol. Perfekt für besondere Momente.";"0,33l";"4,80";"8,5%";0;0;"Belgische Biere"
+"BD066";"Duvel 666";"Flaschenbiere";"Seite 20";"Eine mildere Variante des Klassikers: Mit 6,66 % vol. bietet dieses Bier eine fruchtigere Note, dezente Hopfenbitterkeit und ein leichtes, erfrischendes Finish. Ideal für den Einstieg in die Welt der belgischen Biere.";"0,33l";"4,80";"6,66%";0;0;"Belgische Biere"
+"BD067";"Engel Keller Dunkel";"Flaschenbiere";"Seite 29";"Ein dunkelmalziges Kellerbier, das durch feine Röstaromen und eine leichte Karamellnote besticht. Mit 5,2 % vol. ein vollmundiger Genuss, der Tradition schmeckbar macht.";"0,5l";"4,90";"5,2%";0;0;""
+"BD068";"Engel Keller Hell";"Flaschenbiere";"Seite 29";"Ein fränkisches Helles, naturbelassen und ungefiltert. Mit milden Malznoten und einer angenehmen Süße überzeugt dieses Bier mit 5,3 % vol. durch seinen ursprünglichen, süffigen Charakter.";"0,5l";"4,90";"5,3%";0;0;""
+"BD069";"Engel Kellerbier Hell Alkoholfrei";"Flaschenbiere";"Seite 36";"Ein naturtrübes, alkoholfreies Kellerbier mit malzigem Körper und sanfter Hopfennote. Traditioneller Geschmack – ohne Alkohol.";"0,33l";"3,30";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD070";"Estrella Damm";"Flaschenbiere";"Seite 32";"Das traditionsreiche Bier aus Barcelona mit 5,4 % vol. verbindet mediterrane Leichtigkeit mit einer dezenten Hopfenbittere. Ein Genuss für heiße Sommertage.";"0,33l";"4,00";"5,4%";0;0;"Europäische Biere"
+"BD071";"Estrella Daura Damm (glutenfrei)";"Flaschenbiere";"Seite 32";"Dank seiner erfrischenden Note und dem ausgewogenen Aroma ist dieses Lagerbier der ideale Begleiter zu mediterranen Speisen.";"0,33l";"4,00";"5,4%";0;1;"glutenfrei"
+"BD072";"Estrella Inedit";"Flaschenbiere";"Seite 10";"Das exquisite Bier vom Erfinder der Molekularküche Ferran Adrià. Frisch, fruchtig und leicht würzig mit feiner Cremigkeit. Perfekt für Gourmetgerichte – ein einzigartiges Geschmackserlebnis!";"0,75l";"10,90";"4,8%";0;0;"Exklusiv"
+"BD073";"finkenbeer";"Flaschenbiere";"Seite 7";"Stoß auf dich selber an, du hast es dir verdient. Oder verschenk deine Geburtstagsgrüße in flüssiger Form. Ein herbes Export, nur für den finkenkrug gebraut!";"0,5l";"4,90";"5,5%";0;0;"it´s your bierthday"
+"BD074";"Filou Belgian Tripel";"Fassbiere";"Seite 15";"Filou Belgian Tripel ist ein kräftiges belgisches Bier mit einem vollmundigen, leicht fruchtigen Charakter. Seine subtilen Gewürznoten und die angenehme Hopfenbittere verleihen ihm eine ausgewogene Eleganz.";"0,25l";"4,00";"8,5%";0;0;"Belgien"
+"BD075";"Flensburger Alkoholfrei";"Flaschenbiere";"Seite 36";"Das norddeutsche Original – alkoholfrei und mit typischer Frische. Ein vollmundiges Pils, ideal für aktive Genießer.";"0,33l";"3,30";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD076";"Flensburger Pils";"Flaschenbiere";"Seite 27";"Das Bier mit dem berühmten „Plopp“. Frisch, nordisch-herb und mit 4,8 % vol. ein echtes Original aus dem hohen Norden.";"0,33l";"3,30";"4,8%";0;0;""
+"BD077";"Föroya Pilsnar";"Flaschenbiere";"Seite 32";"Das Lagerbier von den Färöer Inseln mit 4,6 % vol. ist frisch und leicht, mit einer dezenten Malzigkeit. Ein Geheimtipp für nordische Bierliebhaber.";"0,33l";"4,80";"4,6%";0;0;"Färöer Inseln"
+"BD078";"Früh Kölsch";"Flaschenbiere";"Seite 27";"Kölsch in Reinkultur – leicht, spritzig und mit 4,8 % vol. ideal für gesellige Abende. Eine kölsche Tradition, die schmeckt.";"0,33l";"3,30";"4,8%";0;0;""
+"BD079";"Fuller’s Honey Dew";"Flaschenbiere";"Seite 31";"Dieses Bio-Ale begeistert mit einer dezenten Honignote und frischem Geschmack. Mit 5,0 % vol. ein leichtes, angenehm süßliches Bier, perfekt für warme Tage.";"0,5l";"5,90";"5,0%";0;0;"Britische Biere"
+"BD080";"Fuller’s IPA";"Flaschenbiere";"Seite 31";"Ein hopfenbetontes India Pale Ale mit Zitrus- und Kräuternoten. Mit 5,3 % vol. Alkohol ein modernes Bier, das den intensiven Geschmack britischer IPAs bietet.";"0,5l";"5,90";"5,3%";0;0;"Britische Biere"
+"BD081";"Fuller’s London Porter";"Flaschenbiere";"Seite 31";"Ein Klassiker mit tiefen Schokoladen- und Kaffeearomen, kombiniert mit einer leichten Rauchigkeit. Mit 5,4 % vol. ein elegantes Porter, das Tradition aufleben lässt.";"0,5l";"5,90";"5,4%";0;0;"Britische Biere"
+"BD082";"Fuller’s London Pride";"Flaschenbiere";"Seite 31";"Ein harmonisches Ale mit ausgewogener Malz- und Hopfenbalance. Mit 4,7 % vol. ein vielseitiger Klassiker, der typisch britische Brautradition verkörpert.";"0,5l";"5,90";"4,7%";0;0;"Britische Biere"
+"BD083";"Gösser Naturradler";"Fassbiere";"Seite 15";"Gösser Naturradler ist eine erfrischende Mischung aus Gösser Bier und natürlichem Zitronensaft. Mit seinem fruchtig-spritzigen Geschmack und der perfekten Balance zwischen Süße und Säure ist es der ideale Durstlöscher – natürlich, leicht und herrlich erfrischend!";"0,3l/0,5l";"3,30/4,90";"2,0%";0;0;""
+"BD084";"Green Island Stout";"Flaschenbiere";"Seite 32";"Dieses Bier von der Föroya Bryggjarí auf den Färöer Inseln ist ein tiefdunkles, vollmundiges Stout mit Röstaromen von Kaffee und dunkler Schokolade. Inspiriert von der rauen Schönheit des Nordatlantiks.";"0,33l";"4,80";"5,8%";0;0;"Färöer Inseln"
+"BD085";"Grimbergen Dubbel";"Fassbiere";"Seite 15";"Ein dunkles belgisches Abteibier mit weichem Malzkörper, Noten von Karamell und Trockenfrüchten sowie einer dezenten Röstung. Sein harmonischer, leicht süßlicher Abgang macht es zu einem vollmundigen Geschmackserlebnis.";"0,25l";"3,80";"6,5%";0;0;"Belgien"
+"BD086";"Guinness 0,0";"Flaschenbiere";"Seite 36";"Eine alkoholfreie Bierspezialität aus Irland mit dem typischen, malzig-röstigen Guinness-Geschmack. Ideal für alle, die vollmundigen Genuss ohne Alkohol erleben möchten.";"0,44l";"5,90";"0,0%";1;0;"Alkoholfreie Biere"
+"BD087";"Guinness Stout";"Fassbiere";"Seite 16";"Guinness Stout ist ein legendäres irisches Bier mit tiefen Röstnoten und einer samtigen Textur. Der Geschmack von geröstetem Malz, Schokolade und Kaffee harmoniert perfekt mit seiner cremigen, feinperligen Schaumkrone – ein Klassiker für Liebhaber dunkler Biere.";"0,3l/0,5l";"3,90/5,90";"4,2%";0;0;"Irland"
+"BD088";"Gurkenradler";"Flaschenbiere";"Seite 23";"Eine erfrischende Mischung aus Bier und Gurke. Spritzig, leicht und mit einer angenehmen Würze – der perfekte Durstlöscher an heißen Tagen!";"0,33l";"3,70";"2,4%";0;0;"+ 1 Spreewaldgurke 2,50"
+"BD089";"Haake Beck Kräusen";"Fassbiere";"Seite 13";"Haake Beck Kräusen ist ein norddeutsches Kellerbier mit mildem, malzigem Geschmack und einer leichten, feinperligen Trübung. Es wird naturbelassen und unfiltriert abgefüllt, was ihm seinen frischen, ursprünglichen Charakter verleiht.";"0,3l/0,5l";"3,30/4,90";"4,9%";0;0;""
+"BD090";"Heineken 0,0";"Flaschenbiere";"Seite 36";"Klassisches Heineken, alkoholfrei und mit unverkennbarem Geschmack. Leicht, erfrischend und mit einer feinen Malznote – perfekt für jede Gelegenheit.";"0,33l";"3,30";"0,0%";1;0;"Alkoholfreie Biere"
+"BD091";"Heineken Extra Cold";"Fassbiere";"Seite 18";"Der spezielle Trinkgenuss bei 0º C. Je kühler das Bier, umso sanfter ist es im Genuss. Gezapft im vorgekühlten Heineken-Glas. Das Heineken-Extra-Cold-Modell produziert an der Zapfsäule in nur einer Stunde Eis.";"0,3l/0,5l";"3,80/5,50";"5,0%";0;0;"Niederlande"
+"BD092";"Hövels Original";"Flaschenbiere";"Seite 25";"Ein feines Rotbier aus Dortmund, das mit malzig-fruchtigen Aromen und einer dezenten Hopfenbittere überzeugt. Mit 5,5 % vol. Alkohol ein idealer Begleiter für deftige Speisen oder gemütliche Abende.";"0,5l";"4,90";"5,5%";0;0;"Ruhrpott-Biere"
+"BD093";"Hopacabana";"Fassbiere";"Seite 18";"Die kleine Brauerei aus Dortmund versorgt uns regelmäßig mit ihren neuen Kreationen, die immer einzigartig sind. Von Double IPA bis Hazy Pale Ale ist alles dabei. Welche Sorte momentan da ist könnt ihr bei eurer Servicekraft erfragen!";"0,25l/0,5l";"4,20/6,90";"variiert";0;0;"Dortmund / wechselnde Sorten"
+"BD094";"Hop House 13 Lager";"Fassbiere";"Seite 17";"Hop House 13 Lager ist ein erfrischendes, vollmundiges Lagerbier mit einer ausgewogenen Balance aus süßem Malz und kräftigem Hopfen. Mit einer feinen Blume und einer angenehmen Bitterkeit eignet sich dieses Bier ideal für einen geselligen Abend oder als Durstlöscher.";"0,3l/0,5l";"3,90/5,90";"5,0%";0;0;"Irland"
+"BD095";"Innis & Gunn Caribbean Rum Cask";"Flaschenbiere";"Seite 31";"Dieses Ale überzeugt mit Noten von Karamell, Rum und tropischen Früchten. Mit 6,8 % vol. ein exotischer Genuss für Liebhaber besonderer Fassreifungen.";"0,33l";"4,80";"6,8%";0;0;"Britische Biere"
+"BD096";"Innis & Gunn Lager";"Flaschenbiere";"Seite 31";"Ein leichtes, frisches Lager mit feiner Hopfenblume und 4,6 % vol. Alkohol. Perfekt für alle, die einen modernen, unkomplizierten Biergenuss suchen.";"0,33l";"4,80";"4,6%";0;0;"Britische Biere"
+"BD097";"Innis & Gunn Original";"Flaschenbiere";"Seite 31";"Ein fassgereiftes Ale mit Vanille- und Toffeenoten, veredelt durch Eichenholz. Mit 6,6 % vol. ein außergewöhnliches Bier, das durch seinen milden Charakter besticht.";"0,33l";"4,80";"6,6%";0;0;"Britische Biere"
+"BD098";"Jever";"Flaschenbiere";"Seite 27";"Friesisch herb – ein Pilsener mit kräftigem Hopfengeschmack und 4,9 % vol. Alkohol. Perfekt für Liebhaber eines intensiven, bitteren Genusses.";"0,33l";"3,30";"4,9%";0;0;""
+"BD099";"Karlovacko";"Flaschenbiere";"Seite 32";"Kroatiens beliebtes Lagerbier mit 5,4 % vol. überzeugt durch seinen erfrischenden, leicht herben Charakter. Ein echter Genuss aus dem Herzen der Adria-Region.";"0,33l";"4,00";"5,4%";0;0;"Kroatien"
+"BD100";"Kasteel Barista Chocolate";"Flaschenbiere";"Seite 23";"Ein Bier wie ein Dessert: Mit Aromen von Schokolade, Kaffee und Karamell ist dieses Dunkelbier ein echtes Geschmackserlebnis. Ideal für den besonderen Moment!";"0,33l";"5,50";"11,0%";0;0;"belgisch"
+"BD101";"Kasteel Cuvée du Château";"Flaschenbiere";"Seite 24";"Dunkel, intensiv, komplex. Dieses belgische Starkbier mit 11,0 % vol. vereint Noten von Karamell, Vanille und dezenten Röstaromen. Ein Genuss, der perfekt zu gereiftem Käse oder Schmorgerichten passt.";"0,33l";"5,50";"11,0%";0;0;"Starkbiere"
+"BD102";"Kasteel Donker";"Flaschenbiere";"Seite 20";"Ein tiefbraunes, fast schwarzes Bier mit 11 % vol., das durch Noten von Schokolade, Karamell und dunklen Früchten beeindruckt. Ein kraftvolles Dessertbier mit luxuriösem Abgang.";"0,33l";"5,50";"11,0%";0;0;"Belgische Biere"
+"BD103";"Kasteel Rouge";"Flaschenbiere";"Seite 23";"Ein intensives Kirschbier mit 8,0 % vol., das die süße Fruchtigkeit von Kirschen mit der Kraft eines starken Biers verbindet. Ein wahrer Genuss für Liebhaber fruchtiger und vollmundiger Spezialitäten.";"0,33l";"4,80";"8,0%";0;0;"belgisch"
+"BD104";"Kasteel Rouge 0,0";"Flaschenbiere";"Seite 36";"Eine alkoholfreie Variante des berühmten Fruchtbiers. Süßlich, fruchtig und mit intensiven Kirsch-Aromen – ein einzigartiges Erlebnis.";"0,33l";"4,80";"0,0%";1;0;"Alkoholfreie Biere"
+"BD105";"Kilkenny Red Ale";"Fassbiere";"Seite 16";"Kilkenny Red Ale ist ein irisches Ale mit einem ausgewogenen, malzigen Charakter und einer feinen, karamelligen Süße. Es besticht durch seine leichte Fruchtigkeit und einen sanften, leicht bitteren Abgang. Perfekt für alle, die ein vollmundiges, aber mildes Bier suchen.";"0,3l/0,5l";"3,90/5,90";"4,2%";0;0;"Irland"
+"BD106";"Kasteel Rubus Framboise";"Fassbiere";"Seite 15";"Ein sehr leckeres und richtig süßes, fruchtiges belgisches Bier mit intensiven Aromen von reifen Himbeeren. Sein süß-säuerlicher Charakter wird durch eine feine Malzbasis abgerundet, was ihm eine besondere Tiefe verleiht.";"0,25l";"4,30";"7,0%";0;0;"Belgien"
+"BD107";"Kirin Ichiban 0,0";"Flaschenbiere";"Seite 37";"Japans alkoholfreier Bierklassiker mit leichter Süße und erfrischender Note. Authentisch und unverwechselbar.";"0,33l";"4,50";"0,0%";1;0;"Alkoholfreie Biere"
+"BD108";"Kirin Ichiban";"Flaschenbiere";"Seite 33";"Feinperlig und malzig, mit einer leichten Hopfennote – der perfekte Begleiter für entspannte Momente, erfrischend und authentisch.";"0,33l";"4,50";"5,0%";0;0;"Asiatische Biere"
+"BD109";"König Pilsener";"Fassbiere";"Seite 18";"König Pilsener ist ein klassisches Pilsbier mit einem fein ausbalancierten Geschmack. Die markante Hopfennote und die erfrischende Bitterkeit machen es zu einem idealen Begleiter für jeden Anlass. Mit seiner leichten, spritzigen Textur ist es der perfekte Durstlöscher.";"0,25l/0,4l/1,0l/2,0l";"2,70/3,80/8,00/16,00";"4,9%";0;0;"auch als Maß 1 l/8,00 oder Tulpe 2l/16,00 (20,00 Pfand)"
+"BD110";"König Pilsener Alkoholfrei";"Flaschenbiere";"Seite 36";"Ein erfrischend herbes Pils, das durch seinen vollen Geschmack überzeugt. Perfekt für Liebhaber klassischer Biere.";"0,33l";"3,30";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD111";"Kona Longboard";"Flaschenbiere";"Seite 34";"Das Lagerbier von den hawaiianischen Inseln mit 4,6 % vol. überzeugt durch seine weiche Malzbasis und feine Hopfenaromen. Perfekt für entspannte Momente.";"0,355l";"4,80";"4,6%";0;0;"American Craft Brews"
+"BD112";"Köstritzer Schwarzbier";"Flaschenbiere";"Seite 27";"Ein Klassiker der deutschen Bierkultur – dunkel, malzig und mit feiner Röstaromatik. Mit 4,8 % vol. das ideale Bier für besondere Momente.";"0,5l";"4,90";"4,8%";0;0;""
+"BD113";"La Chouffe Blonde";"Fassbiere";"Seite 18";"Ein goldgelbes, unfiltriertes Bier mit verspielten Noten von Koriander und fruchtigen Aromen. Auch als Flaschenbier verfügbar, siehe Seite 20.";"0,3l";"4,80";"8,0%";0;0;"nur im Sommer vom Fass"
+"BD114";"La Chouffe Blonde";"Flaschenbiere";"Seite 20";"Im Sommer auch vom Fass. Ein goldgelbes, unfiltriertes Bier mit verspielten Noten von Koriander und fruchtigen Aromen. Seine 8,0 % vol. machen es kraftvoll, während es dank der leichten Süße angenehm süffig bleibt. Der Favorit aller Gartenzwerge!";"0,33l";"4,80";"8,0%";0;0;"Belgische Biere"
+"BD115";"La Chouffe Cherry";"Flaschenbiere";"Seite 23";"Ein fruchtiges Kirschbier mit einem perfekten Zusammenspiel aus süßen, leicht säuerlichen Kirschnoten und der charakteristischen Würze belgischer Braukunst.";"0,33l";"4,80";"6,5%";0;0;"belgisch"
+"BD116";"La Chouffe Sans Alcool";"Flaschenbiere";"Seite 36";"Ein alkoholfreies belgisches Bier mit Noten von Zitrus und Gewürzen. Leicht, erfrischend und charaktervoll.";"0,33l";"4,80";"0,4%";1;0;"Alkoholfreie Biere"
+"BD117";"La Guillotine";"Flaschenbiere";"Seite 20";"Dieses goldene Tripel mit 8,5 % vol. überzeugt mit fruchtigen und würzigen Aromen, einer angenehmen Bitterkeit und überraschender Intensität. Ein wahrlich scharfer Genuss.";"0,33l";"4,80";"8,5%";0;0;"Belgische Biere"
+"BD118";"Lahnsteiner Rohminator";"Flaschenbiere";"Seite 24";"Ungefiltert und stark, begeistert dieses Bier mit 10,2 % vol. durch vollmundige Malzaromen und fruchtige Nuancen. Ideal für Bierliebhaber, die etwas Neues entdecken möchten.";"0,33l";"5,50";"10,2%";0;0;"Starkbiere"
+"BD119";"La Trappe Epos";"Flaschenbiere";"Seite 36";"Komplex, vollmundig und mit einem angenehm trockenen Abgang – ein echtes Trappistenbier mit Charakter.";"0,33l";"4,80";"0,0%";1;0;"Alkoholfreie Biere"
+"BD120";"La Trappe Isid’or";"Flaschenbiere";"Seite 21";"Dieses bernsteinfarbene Trappistenbier mit 7,5 % vol. ist eine Hommage an den ersten Brauer von La Trappe. Mit Noten von Karamell, Honig und einer feinen Hopfenbitterkeit bleibt es angenehm rund und ausgewogen.";"0,33l";"4,80";"7,5%";0;0;""
+"BD121";"La Trappe Nillis 0,0";"Flaschenbiere";"Seite 36";"Das erste alkoholfreie Trappistenbier mit vollmundigem Körper und milden Malznoten. Authentischer Geschmack – ohne Promille.";"0,33l";"4,80";"0,0%";1;0;"Alkoholfreie Biere"
+"BD122";"La Trappe Witte Trappist";"Flaschenbiere";"Seite 10";"La Trappe Witte Trappist ist ein erfrischendes belgisches Witbier, das von der niederländischen Trappistenbrauerei La Trappe gebraut wird. Mit einem zarten Geschmack von Zitrusfrüchten, Gewürzen und einer leichten Hefe-Note bietet es ein perfekt ausbalanciertes Trinkerlebnis. Ideal für Liebhaber von Witbier. Im Sommer auch vom Fass verfügbar.";"0,75l";"10,90";"5,5%";0;0;"Exklusiv"
+"BD123";"La Trappe Witte Trappist";"Fassbiere";"Seite 15";"La Trappe Witte Trappist ist ein erfrischendes belgisches Witbier, das von der niederländischen Trappistenbrauerei La Trappe gebraut wird. Auch als Flaschenbier verfügbar, siehe Seite 10.";"0,3l";"4,80";"5,5%";0;0;"nur im Sommer vom Fass"
+"BD124";"Leffe Blonde";"Fassbiere";"Seite 15";"Leffe Blonde ist ein traditionsreiches belgisches Abteibier, das mit seinem milden, ausgewogenen Charakter begeistert. Fruchtige und würzige Noten verbinden sich harmonisch mit einem dezent süßlichen Abgang. Vollmundig und aromatisch.";"0,25l";"3,80";"6,6%";0;0;"Belgien"
+"BD125";"Leffe Bruin";"Flaschenbiere";"Seite 20";"Ein bernsteinfarbenes Klosterbier mit 6,5 % vol. und komplexem Aroma von Röstaromen, Trockenfrüchten und leichtem Toffee. Eine warme und vollmundige Wahl für Liebhaber dunkler Biere.";"0,33l";"4,80";"6,5%";0;0;"Belgische Biere"
+"BD126";"Leikeim Steinbier";"Fassbiere";"Seite 18";"Leikeim Steinbier ist ein fränkisches Traditionsbier, das durch eine besondere Brautechnik entsteht: Heiße Steine werden ins Bier gegeben, um den Malzgeschmack intensiv zu verfeinern. Das Ergebnis ist ein vollmundiges, kräftiges Bier mit einzigartigen Röstnoten und einer harmonischen Hopfenbittere.";"0,5l/1,0l";"4,90/8,50";"5,8%";0;0;"auch als Maß 1,0 l/8,50"
+"BD127";"Liefmans Fruitesse";"Flaschenbiere";"Seite 23";"Ein prickelnd-frisches Bier mit einem Mix aus fünf roten Früchten. Gekühlt auf Eis serviert, ein sommerlicher Hochgenuss!";"0,25l";"4,00";"3,5%";0;0;"belgisch"
+"BD128";"Liefmans Fruitesse 0,0";"Flaschenbiere";"Seite 37";"Ein alkoholfreies Fruchtbier mit 0,0 % vol. und intensiven Aromen von Kirschen, Erdbeeren und Himbeeren. Erfrischend und fruchtig.";"0,25l";"4,00";"0,0%";1;0;"Alkoholfreie Biere"
+"BD129";"Lindemans Apple";"Flaschenbiere";"Seite 23";"Dieses Lambic kombiniert die spritzige Frische von Äpfeln mit der milden Süße belgischer Braukunst. Erfrischend leicht und perfekt für jeden Anlass.";"0,25l";"4,00";"3,5%";0;0;"belgisch"
+"BD130";"Lindemans Cassis";"Flaschenbiere";"Seite 23";"Ein köstlich fruchtiges Lambic mit 3,5 % vol., das mit intensiven Aromen schwarzer Johannisbeeren und einem erfrischenden Abgang begeistert.";"0,25l";"4,00";"3,5%";0;0;"belgisch"
+"BD131";"Lindemans Framboise";"Flaschenbiere";"Seite 23";"Ein Klassiker unter den Fruchtbieren: Frische Himbeeraromen, dezente Säure und ein spritzig-süßes Finale machen dieses Lambic zu einem Genuss.";"0,25l";"4,00";"2,5%";0;0;"belgisch"
+"BD132";"Lindemans Kriek";"Fassbiere";"Seite 15";"Lindemans Kriek ist ein traditionelles belgisches Kirschbier mit fruchtig-süßem Geschmack und einer angenehm spritzigen Säure. Durch die Zugabe echter Kirschen erhält es seine intensive, erfrischende Note.";"0,25l";"4,00";"3,5%";0;0;"Belgien"
+"BD133";"Lindemans Pecheresse";"Flaschenbiere";"Seite 23";"Ein Pfirsichbier, das mit seiner harmonischen Balance aus Süße und Leichtigkeit überzeugt. Der ideale Begleiter für fruchtige Momente.";"0,25l";"4,00";"2,5%";0;0;"belgisch"
+"BD134";"Löwenbräu Original";"Fassbiere";"Seite 12";"Löwenbräu Original ist ein klassisches Münchner Bier mit ausgewogenem, mild-malzigem Geschmack und einer angenehmen Hopfennote. Es wird nach dem Reinheitsgebot gebraut und verkörpert traditionelle Braukunst.";"0,3l/0,5l/1,0l";"3,30/4,90/8,50";"5,2%";0;0;"auch als Maß 1,0 l/8,50"
+"BD135";"Lucky Buddha";"Flaschenbiere";"Seite 10";"Ein mildes chinesisches Lagerbier mit leichter Malznote. In der ikonischen Buddha-Flasche ideal für alle, die ein spritziges, leichtes Bier genießen möchten.";"0,33l";"4,80";"4,8%";0;0;"Exklusiv"
+"BD136";"Maisels and Friends West Coast IPA";"Fassbiere";"Seite 16";"Maisels and Friends West Coast IPA ist ein kräftiges, hopfenbetontes Bier mit einer klaren, goldenen Farbe und einer intensiven Zitrusnote. Der Geschmack ist fruchtig, aber auch angenehm herb, was es zu einem echten Genuss für Liebhaber von bitteren IPAs macht.";"0,3l/0,5l";"3,90/5,90";"6,6%";0;0;""
+"BD137";"Meisels & Friends IPA Alkoholfrei";"Flaschenbiere";"Seite 37";"Ein alkoholfreies Craft Beer mit floralen und fruchtigen Hopfennoten. Perfekt für Fans moderner Biere.";"0,33l";"3,70";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD138";"Mongozo Banana (glutenfrei)";"Flaschenbiere";"Seite 23";"Der Geschmack reifer Bananen in einem süffigen Bier. Exotisch und überraschend anders – ein Bier, das begeistert.";"0,33l";"4,80";"3,6%";0;1;"international / glutenfrei"
+"BD139";"Mongozo Coconut (glutenfrei)";"Flaschenbiere";"Seite 23";"Exotischer Genuss im Glas: Mit der feinen Süße der Kokosnuss ist dieses Bier eine erfrischende Abwechslung für Experimentierfreudige.";"0,33l";"4,80";"3,6%";0;1;"international / glutenfrei"
+"BD140";"Mongozo Cocos";"Fassbiere";"Seite 15";"Ein glutenfreies, exotisches, fruchtiges Bier mit dem intensiven Geschmack von Kokosnüssen. Diese ungewöhnliche Kombination aus Bier und tropischer Frische bietet eine einzigartige, süße Note. Ideal für warme Tage!";"0,33l";"4,80";"3,6%";0;1;"Belgien / nur im Sommer vom Fass / Und im Winter aus der Flasche / glutenfrei"
+"BD141";"Mongozo Mango (glutenfrei)";"Flaschenbiere";"Seite 23";"Ein Tropen-Traum aus Mango: süß, erfrischend und leicht, ein ideales Bier für heiße Tage oder als Aperitif.";"0,33l";"4,80";"3,6%";0;1;"international / glutenfrei"
+"BD142";"Moosehead Cracked Canoe";"Flaschenbiere";"Seite 34";"Ein leichtes Lager mit nur 3,5 % vol., das trotzdem volles Aroma bietet. Perfekt für alle, die leichten, erfrischenden Biergenuss suchen.";"0,341l";"4,80";"3,5%";0;0;"Kanada"
+"BD143";"Moosehead Lager";"Flaschenbiere";"Seite 34";"Dieses kanadische Lagerbier mit 5,0 % vol. überzeugt durch seinen erfrischenden, leicht süßlichen Geschmack. Ein Klassiker seit Generationen.";"0,341l";"4,80";"5,0%";0;0;"Kanada"
+"BD144";"Moosehead Premium Dry";"Flaschenbiere";"Seite 34";"Ein trockenes Lagerbier mit 5,5 % vol. Alkohol, das durch seinen klaren, knackigen Geschmack überzeugt. Ein erfrischender Genuss für jede Gelegenheit.";"0,341l";"4,80";"5,5%";0;0;"Kanada"
+"BD145";"Mythos";"Flaschenbiere";"Seite 32";"Das griechische Lagerbier mit 5,0 % vol. überzeugt durch seine milde Süße und dezente Hopfennote. Perfekt gekühlt bringt es die Leichtigkeit des Mittelmeers ins Glas.";"0,33l";"3,70";"5,0%";0;0;"Griechenland"
+"BD146";"Newcastle Brown Ale";"Fassbiere";"Seite 17";"Newcastle Brown Ale ist ein traditionelles britisches Ale, das mit seinem milden, malzigen Charakter und einer feinen Röstnote begeistert. Der Geschmack ist süßlich und karamellig, mit einer dezenten Bitterkeit, die sich sanft im Abgang entfaltet – ideal für gemütliche Abende.";"0,3l/0,5l";"3,90/5,90";"4,7%";0;0;"England"
+"BD147";"Paulaner Salvator";"Flaschenbiere";"Seite 24";"Der Klassiker unter den Starkbieren – malzig, süffig, mit feiner Röstnote und einer leichten Karamellsüße. Mit 7,9 % vol. Alkohol ein bayerisches Original, das den Charakter traditioneller Bockbiere widerspiegelt.";"0,5l";"5,90";"7,9%";0;0;"Starkbiere"
+"BD148";"Paulaner Zitrone 0,0";"Flaschenbiere";"Seite 36";"Ein erfrischendes Biermischgetränk mit 0,0 % vol., das süß-spritzige Zitronennoten mit dem Geschmack von Weißbier vereint. Ein Sommerhit!";"0,5l";"4,90";"0,0%";1;0;"Alkoholfreie Biere"
+"BD149";"Peroni";"Flaschenbiere";"Seite 32";"Ein italienisches Premiumbier mit 5,1 % vol., das mit seiner Frische und leicht herben Note überzeugt. Ideal als Begleiter für Pasta, Pizza und sonnige Tage.";"0,33l";"3,70";"5,1%";0;0;"Italien"
+"BD150";"Pilsener Urquell";"Flaschenbiere";"Seite 32";"Das tschechische Original-Pils mit 4,4 % vol. beeindruckt durch seine kräftige Hopfenbittere und malzige Süße.";"0,33l";"3,70";"4,4%";0;0;"Tschechien"
+"BD151";"Rheingold Alt";"Flaschenbiere";"Seite 25";"Ebenfalls ein Stück Duisburger Braukunst. Malzaromatisch, feinherb und erfrischend, überzeugt dieses Altbier mit seinem vollmundigen Geschmack.";"0,33l";"3,70";"4,8%";0;0;"Duisburger Alt"
+"BD152";"Rheingold Pils";"Flaschenbiere";"Seite 25";"Ein Duisburger Bier mit Geschichte – feinherb, erfrischend und mit einer zarten Malznote. Mit 5,0 % vol. Alkohol ist es ein ausgewogenes Pils, das perfekt zu geselligen Runden passt.";"0,33l";"3,70";"5,0%";0;0;"Duisburger Pils"
+"BD153";"Robinson Trooper Iron Maiden";"Flaschenbiere";"Seite 31";"Das Kultbier der britischen Rockband – ein erfrischendes Ale mit feinen Malznoten, Zitrusakzenten und 4,7 % vol. Ein Bier, das Rock und Geschmack vereint.";"0,5l";"5,90";"4,7%";0;0;"Britische Biere"
+"BD154";"Rodenbach Fruitage";"Flaschenbiere";"Seite 23";"Ein einzigartiges Blending-Bier mit Aromen von roten Beeren und leichter Säure. Erfrischend, fruchtig und ideal als Aperitif. Wird auf Eis mit Limette getrunken.";"0,25l";"4,00";"3,9%";0;0;"belgisch"
+"BD155";"Samuel Adams Boston Lager";"Flaschenbiere";"Seite 34";"Ein charakterstarkes, bernsteinfarbenes Bier. Sein vollmundiger Geschmack vereint malzige Süße mit feiner Hopfenbittere. Durch traditionelle Braukunst und beste Zutaten entsteht ein perfekt ausbalanciertes, erfrischendes Genusserlebnis.";"0,355l";"4,80";"4,9%";0;0;"American Craft Brews"
+"BD156";"San Miguel";"Flaschenbiere";"Seite 32";"Ein mildes, süffiges Lagerbier mit 5,0 % vol., das weltweit für seine mediterrane Leichtigkeit geschätzt wird. Der ideale Begleiter zu Tapas und Sommerabenden.";"0,2l/1,0l";"2,70/9,90";"5,0%";0;0;"5 x 0,2 l für 9,90 im Eimer auf Eis"
+"BD157";"Schlenkerla Rauchbier";"Flaschenbiere";"Seite 29";"Ein echtes Original aus Bamberg. Dieses kräftige Bier mit 5,1 % vol. beeindruckt durch seine rauchigen Aromen, die an geräucherten Schinken erinnern. Ein Erlebnis für alle Sinne.";"0,5l";"4,90";"5,1%";0;0;""
+"BD158";"Schlösser Alt";"Fassbiere";"Seite 13";"Schlösser Alt ist ein klassisches, obergäriges Altbier mit malzigem Charakter, einer feinen Röstaromatik und einer milden Hopfenbittere. Es wird nach Düsseldorfer Brautradition gebraut und besticht durch seinen ausgewogenen, vollmundigen Geschmack.";"0,25l/0,4l";"2,70/3,80";"4,8%";0;0;""
+"BD159";"Schneider Aventinus";"Fassbiere";"Seite 13";"Das bayerische Weizendoppelbock mit intensivem Malzaroma, Noten von reifen Früchten und einer feinen Würze. Es wird nach traditioneller Braukunst hergestellt und überzeugt durch seine kraftvolle, komplexe Struktur.";"0,3l/0,5l";"3,80/5,50";"8,2%";0;0;""
+"BD160";"Schneider Helles Landbier";"Fassbiere";"Seite 12";"Schneider Helles Landbier ist ein fein-würziges, bayerisches Bier mit weichem Malzcharakter und einer harmonischen Hopfennote. Es wird nach traditioneller Rezeptur gebraut und besticht durch seine natürliche Frische.";"0,3l/0,5l/1,0l";"3,30/4,90/8,50";"4,9%";0;0;"auch als Maß 1,0 l/8,50"
+"BD161";"Schneider TAP3 Alkoholfrei";"Flaschenbiere";"Seite 36";"Ein alkoholfreies Weißbier mit vollem Geschmack, das durch fruchtige Noten und einen malzigen Körper besticht.";"0,5l";"4,90";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD162";"Schorsch 57 %";"Flaschenbiere";"Seite 24";"Das stärkste Bier der Welt – ein Extrembier mit unglaublichen 57 % vol. Alkohol. Für die Mutigen, die sich auf ein einzigartiges Geschmackserlebnis mit intensiven, rauchigen und alkoholischen Noten einlassen wollen.";"0,04l";"33,33";"57,0%";0;0;"Das aktuell stärkste Bier der Welt"
+"BD163";"Schorschbock 13";"Flaschenbiere";"Seite 24";"Bayerische Handwerkskunst mit 13,0 % vol. und einem kräftigen, malzigen Geschmack, der von feinen Röstaromen begleitet wird. Ein Bier, das sich Zeit nimmt – und Zeit für sich fordert.";"0,33l";"8,90";"13,0%";0;0;"Starkbiere"
+"BD164";"Schöfferhofer Grapefruit";"Flaschenbiere";"Seite 26";"Fruchtig, spritzig und leicht herb – mit 2,5 % vol. ist dieses Biermischgetränk ein erfrischender Durstlöscher mit sommerlichem Flair.";"0,33l";"3,30";"2,5%";0;0;"Trendbiere"
+"BD165";"Sierra Nevada Pale Ale";"Flaschenbiere";"Seite 34";"Ein Klassiker der Craft Beer Szene mit 5,6 % vol. Dieses hopfenbetonte Bier bietet Aromen von Zitrus und Pinie – ein Must-have für Pale-Ale-Liebhaber.";"0,355l";"4,80";"5,6%";0;0;"American Craft Brews"
+"BD166";"Sierra Nevada Torpedo";"Flaschenbiere";"Seite 34";"Dieses Extra IPA mit 7,2 % vol. beeindruckt durch kräftige Hopfenaromen und eine angenehme Bitterkeit. Perfekt für Fans intensiver Biere.";"0,355l";"4,80";"7,2%";0;0;"American Craft Brews"
+"BD167";"Siren Broken Dream Nitro Stout";"Dosenbiere";"Seite 35";"Cremig und intensiv mit Aromen von Kaffee und Schokolade. Dieses Nitro Stout begeistert durch seinen vollmundigen Körper und die samtige Textur.";"0,33l";"4,50";"6,2%";0;0;""
+"BD168";"Siren Lumina Session IPA";"Dosenbiere";"Seite 35";"Leicht und erfrischend mit spritzigen tropischen Fruchtnoten und einer milden Bitterkeit.";"0,33l";"4,50";"4,2%";0;1;"glutenfrei"
+"BD169";"Siren Soundwave IPA";"Dosenbiere";"Seite 35";"Kräftige Zitrus- und tropische Fruchtaromen, die von einer frischen Bitterkeit begleitet werden. Ein intensives IPA-Erlebnis für Hopfenliebhaber.";"0,33l";"4,50";"5,6%";0;0;""
+"BD170";"Spaten Alkoholfrei";"Flaschenbiere";"Seite 36";"Ein alkoholfreies Bier mit vollmundigem Geschmack und fein abgestimmter Hopfenblume. Der ideale Durstlöscher für jeden Moment.";"0,5l";"4,90";"< 0,5%";1;0;"Alkoholfreie Biere"
+"BD171";"Strongbow Dry Cider";"Fassbiere";"Seite 17";"Strongbow Dry Cider ist ein spritziger, trockener Apfelwein mit einer frischen, fruchtigen Note. Der klare, erfrischende Geschmack und die leichte Säure machen ihn zu einem idealen Durstlöscher, der perfekt zu warmen Tagen und geselligen Momenten passt.";"0,3l/0,5l";"3,90/5,90";"5,0%";0;0;"England"
+"BD172";"Superfreunde Rookie IPA";"Dosenbiere";"Seite 35";"Fruchtig mit Aromen von Zitrusfrüchten und einer ausgewogenen Bitterkeit – ein frisch-hopfiger Genuss für IPA-Fans.";"0,33l";"4,50";"6,0%";0;0;""
+"BD173";"Tannenzäpfle";"Flaschenbiere";"Seite 27";"Das Traditionsbier aus dem Schwarzwald von der Brauerei Rothaus. Malzig, frisch und angenehm herb, ein echter Klassiker der badischen Braukunst.";"0,33l";"3,30";"5,1%";0;0;""
+"BD174";"Tennents 1885 Lager";"Dosenbiere";"Seite 35";"Klassisches Lagerbier mit einer Balance aus süßem Malz und einer milden, angenehmen Hopfenbitterkeit. Erfrischend und unkompliziert.";"0,5l";"5,90";"5,0%";0;0;""
+"BD175";"Tennents Extra";"Flaschenbiere";"Seite 31";"Ein vollmundiges, kräftiges Bier mit 9,0 % vol. Alkohol. Malzig und würzig zugleich, ein charakterstarker Genuss für besondere Anlässe.";"0,33l";"4,50";"9,0%";0;0;"Britische Biere"
+"BD176";"Tennents IPA";"Flaschenbiere";"Seite 31";"Dieses IPA besticht durch tropische Fruchtnoten, eine angenehme Hopfenbittere und 6,2 % vol. Ein erfrischendes Bier für moderne Bierliebhaber.";"0,33l";"4,50";"6,2%";0;0;"Britische Biere"
+"BD177";"Tennents Scotch Ale";"Flaschenbiere";"Seite 31";"Ein traditionelles Scotch Ale mit kräftigen Karamell- und Röstmalznoten. Mit 9,0 % vol. ein echtes Highlight schottischer Braukunst.";"0,33l";"4,50";"9,0%";0;0;"Britische Biere"
+"BD178";"Theo König Zwickel";"Fassbiere";"Seite 13";"Theo König Zwickel ist ein unfiltriertes Kellerbier mit vollmundigem Malzgeschmack und einer feinen, natürlichen Trübung. Es wird traditionell gebraut und behält durch seine schonende Verarbeitung seinen ursprünglichen, frischen Charakter.";"0,3l/0,5l";"3,30/4,90";"5,3%";0;0;""
+"BD179";"Tiger";"Flaschenbiere";"Seite 33";"Vollmundig und sanft, mit einer ausgewogenen Bitterkeit und angenehmer Malzsüße – perfekt für alle, die ein harmonisches Lagerbier schätzen.";"0,33l";"4,50";"5,0%";0;0;"Asiatische Biere"
+"BD180";"Trappistes Rochefort 8";"Flaschenbiere";"Seite 21";"Ein tiefbraunes Starkbier mit 9,2 % vol., das mit intensiven Noten von Karamell, Trockenfrüchten und Gewürzen begeistert. Der perfekte Begleiter für kühle Abende.";"0,33l";"4,80";"9,2%";0;0;""
+"BD181";"Tripel Karmeliet";"Flaschenbiere";"Seite 21";"Ein goldenes Tripel mit 8,4 % vol., gebraut nach einem Rezept mit drei Getreidesorten. Mit Aromen von Banane, Vanille und einer feinen Würze ist es ein Klassiker der belgischen Braukunst.";"0,33l";"4,80";"8,4%";0;0;""
+"BD182";"Veltins Pilsener";"Flaschenbiere";"Seite 25";"Der Klassiker aus dem Sauerland. Mit 4,8 % vol. begeistert dieses Pils durch eine knackige Hopfenfrische und eine feinherbe Note. Perfekt gekühlt ist es das ideale Bier für jede Gelegenheit.";"0,33l";"3,30";"4,8%";0;0;"Ruhrpott-Biere"
+"BD183";"Vocation Heart And Soul";"Dosenbiere";"Seite 35";"Fruchtige Zitrus- und tropische Aromen vereinen sich in diesem vollmundigen IPA. Frisch, mit einer angenehmen Bitterkeit.";"0,33l";"4,50";"4,4%";0;0;""
+"BD184";"Vocation Hop, Skip & Juice";"Dosenbiere";"Seite 35";"Saftig und fruchtig mit tropischen Fruchtnoten, die von einer milden Bitterkeit begleitet werden – ein spritziger Durstlöscher voller Geschmack.";"0,33l";"4,50";"5,7%";0;0;""
+"BD185";"Weihenstephan Vitus";"Fassbiere";"Seite 13";"Ein edles Weizenbockbier mit weichem Malzkörper, fruchtigen Aromen und einer dezenten Gewürznote. Es wird in der ältesten Brauerei der Welt nach höchster Braukunst hergestellt.";"0,3l/0,5l";"3,80/5,50";"7,5%";0;0;""
+"BD186";"Weiherer Grünhopfen Pils";"Flaschenbiere";"Seite 29";"Ein einzigartiges, naturbelassenes Pils, das mit frisch geerntetem Hopfen gebraut wird. Das Ergebnis: ein intensives, frisches Hopfenaroma mit grasigen und blumigen Noten.";"0,5l";"4,90";"5,1%";0;0;""
+"BD187";"Weiherer Rolator";"Flaschenbiere";"Seite 29";"Stark, charaktervoll und voller Genuss. Dieses vollmundige Bockbier besticht durch kräftige Malznoten, eine angenehme Süße und eine harmonische Hopfenbittere.";"0,5l";"5,90";"8,8%";0;0;""
+"BD188";"Weiherer Weizenbock";"Flaschenbiere";"Seite 29";"Fruchtig, vollmundig und einzigartig. Dieses obergärige Starkbier vereint Noten von reifer Banane, Karamell und einem Hauch Nelke.";"0,5l";"5,90";"6,8%";0;0;""
+"BD189";"Westmalle Dubbel";"Flaschenbiere";"Seite 20";"Ein reichhaltiges Dubbel mit 7,0 % vol., das mit seiner Balance aus Malzsüße, Trockenfrüchten und dezenter Bitterkeit überzeugt. Brautradition in höchster Form.";"0,33l";"4,80";"7,0%";0;0;"Belgische Biere"
+"BD190";"Wychwood Hobgoblin Ruby";"Flaschenbiere";"Seite 31";"Ein rubinrotes Ale mit kräftigen Malznoten, Karamell und einer dezenten Hopfennote. Mit 5,2 % vol. ein Bier mit mystischem Charakter und vollem Geschmack.";"0,5l";"5,90";"5,2%";0;0;"Britische Biere"
+"BD191";"Wychwood King Goblin";"Flaschenbiere";"Seite 31";"Die kräftigere Variante des Hobgoblin, mit intensiven Malz- und Fruchtaromen. Mit 6,6 % vol. ein Bier für Genießer besonderer Biere.";"0,5l";"5,90";"6,6%";0;0;"Britische Biere"
+"BD192";"X2 Energy";"Flaschenbiere";"Seite 26";"Maximale Power mit vollem Geschmack! Der aufregende Mix aus belebendem Energy-Kick und 5,0 % vol. Alkohol sorgt für den perfekten Wachmacher-Moment.";"0,33l";"4,00";"5,0%";0;0;"Trendbiere"
+"BD193";"X2 Spritz";"Flaschenbiere";"Seite 26";"Erfrischender Spritzgenuss in jeder Flasche! Die fruchtig-herbe Mischung mit 5,0 % vol. Alkohol bringt das perfekte Sommerfeeling – prickelnd, leicht und unwiderstehlich.";"0,33l";"4,00";"5,0%";0;0;"Trendbiere"

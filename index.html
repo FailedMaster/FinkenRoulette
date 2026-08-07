@@ -49,10 +49,52 @@
           </button>
         </div>
       </header>
-      <div id="burger-menu-panel" class="hidden" aria-hidden="true">
+      <div id="overlay-bg" class="overlay hidden"></div>
+      <div id="burger-menu-panel" class="overlay hidden">
         <div class="menu-section">
-          <h2>Filter</h2>
+          <h2>Kategorien</h2>
           <div id="category-checkboxes"></div>
+        </div>
+        <div class="menu-section">
+          <h2>Einschränkungen</h2>
+          <label class="category-option">
+            <input
+              id="alcohol-free-only"
+              type="checkbox"
+              data-setting="alcoholFreeOnly"
+            />
+            <span>Nur Alkoholfrei</span>
+          </label>
+          <label class="category-option">
+            <input
+              id="gluten-free-only"
+              type="checkbox"
+              data-setting="glutenFreeOnly"
+            />
+            <span>Nur Glutenfrei</span>
+          </label>
+        </div>
+        <div class="menu-section">
+          <h2>Verlauf</h2>
+          <button id="show-history">Verlauf anzeigen</button>
+          <button id="clear-history">Verlauf löschen</button>
+          <label class="category-option">
+            <input
+              id="avoid-duplicates"
+              type="checkbox"
+              data-setting="avoidDuplicates"
+            />
+            <span>Wiederholungen vermeiden</span>
+          </label>
+        </div>
+      </div>
+      <div class="history-wrapper overlay hidden">
+        <div class="history-container">
+          <button class="history-close" type="button">×</button>
+          <div>
+            <h1 id="history-title">Verlauf</h1>
+          </div>
+          <div id="history-list"></div>
         </div>
       </div>
       <div id="roulette-button"></div>
@@ -61,7 +103,8 @@
           <div id="beer-name">↑ Klick hier! ↑</div>
           <div id="beer-info"></div>
           <div id="beer-pricing"></div>
-          <div id="beer-extra"></div>
+          <div id="beer-description"></div>
+          <div id="beer-hint"></div>
         </div>
       </div>
       <div class="message-wrapper hidden">
@@ -71,7 +114,6 @@
           <span class="message-icon"></span>
         </div>
       </div>
-      <div class="overlay hidden"></div>
     </div>
 
     <script type="module" src="/src/main.js"></script>

@@ -1,47 +1,47 @@
-﻿Bier-ID;Bier;Beschreibung;Kategorie;Besonderheiten;Alkoholgehalt;Portionsgröße;Preis;Hinweise
-300;Rheinpott Session IPA;Vom Ruhrpott bis zum Niederrhein – drei Brauereien durch ein Bier vereint: Hensen Brauerei aus Mönchengladbach, Brauprojekt 777 aus Voerde und Mücke aus Essen.;für kurze Zeit;;3,2;0,33l;5,50;solange der Vorrat reicht
-301;Adnams Ghost Ship Pale Ale;Ein Hauch von Holunderblüte, dazu kräftiger Zitrus- und Stachelbeergeschmack.;für kurze Zeit;;4,5;0,5l;5,90;"Herkunft: UK; solange der Vorrat reicht"
-302;Benediktiner Hell;Ein Lagerbier mit goldgelber Farbe und angenehmer Malzsüße, mild im Geschmack.;für kurze Zeit;;5,0;0,5l;4,90;solange der Vorrat reicht
-303;Brooklynn Amber Lager;Ein bernsteinfarbenes American Lager. Es zählt zu den beliebtesten Bieren New Yorks.;für kurze Zeit;;5,2;0,33l;4,00;"MHD; solange der Vorrat reicht"
-304;Bud Light;In der USA-typischen Aluminium-Flasche.;für kurze Zeit;;4,2;0,473l;5,90;"Herkunft: USA; Aluminium-Flasche; solange der Vorrat reicht"
-305;Cotes du Rogue;Ein Sour Blonde Ale, das durch ein herbes Aroma und eine angenehme Frische überzeugt.;für kurze Zeit;;7,1;0,5l;14,90;"Herkunft: USA; solange der Vorrat reicht"
-306;Dos Equis XX;Ein erfrischendes, helles Lagerbier, mit einem milden, leicht malzigen Geschmack.;für kurze Zeit;;4,2;0,473l;4,80;"Herkunft: MEX; solange der Vorrat reicht"
-307;EBM Schichtende;Ungefiltert, herb und ehrlich. Ein Bier der Essener Braumanufaktur. Mit Leidenschaft gebraut.;für kurze Zeit;ungefiltert;5,6;0,5l;4,90;solange der Vorrat reicht
-308;Jopen Super DuPa IPA;Handgemachtes Craftbier mit fruchtigen und exotischen Noten.;für kurze Zeit;;5,5;0,33l;4,50;"Herkunft: NLD; solange der Vorrat reicht"
-309;Moosehead Light;"""Light"" bedeutet hier nicht etwa weniger Alkoholgehalt, sondern weniger Kalorien.";für kurze Zeit;kalorienreduziert;4,0;0,341l;4,50;"Herkunft: CAN; solange der Vorrat reicht"
-310;Miller Light;Der Klassiker aus den USA in der Aluflasche. Ein Lagerbier mit malzig-süßem Geschmack.;für kurze Zeit;;4,2;0,473l;5,90;"Herkunft: USA; Aluminium-Flasche; solange der Vorrat reicht"
-311;Riegele Kellerbier;Drei Malzsorten und die besondere Riegele Alehefe sorgen für ein fruchtiges und vollmundiges Aroma.;für kurze Zeit;;5,0;0,5l;4,90;solange der Vorrat reicht
-312;Samuel Smith's Chocolate Stout;Die perfekte Verbindung von Stout und luxuriöser Schokolade.;für kurze Zeit;;5,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
-313;Samuel Smith's Nut Brown Ale;Nussiges Aroma, das an Walnüsse, Bucheckern und Mandeln erinnert.;für kurze Zeit;;5,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
-314;Samuel Smith's Imperial Stout;Aromen von Kaffee und Schokolade, gebraut im Yorkshire-Squares-Verfahren.;für kurze Zeit;;7,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
-315;Samuel Smith's Organic Lager;Mit Noten von dezentem, frisch-brotigem Malz sowie floralen Hopfenaromen.;für kurze Zeit;Bio;4,0;0,355l;4,80;"Herkunft: UK; solange der Vorrat reicht"
-316;Störtebeker United Style Lager;Zum Sportereignis des Jahres von Sierra Nevada Brewing und Störtebeker gebraut.;für kurze Zeit;;4,7;0,355l;3,70;solange der Vorrat reicht
-317;Flâneur Cidre Dry;Trocken, herb und angenehm direkt. Ein Cidre mit Haltung – und Tiefgang.;Cider;Cidre;5,1;0,33l;4,50;solange der Vorrat reicht
-318;Flâneur Cidre Classic;Verführt mit seiner feinen Süße jeden Gaumen beim ersten Schluck.;Cider;Cidre;4,9;0,33l;4,50;solange der Vorrat reicht
-319;Flâneur Cidre Rosé;Säuerlich-süß, wunderbar leichtfüßig und schlicht unwiderstehlich charmant.;Cider;Cidre;4,9;0,33l;4,50;solange der Vorrat reicht
-320;Samuel Smith's Organic Perry Cider;Ein trockener, prickelnder Birnencider mit leuchtend blasser Strohfarbe.;Cider;"Bio; Birnencider";5,0;0,55l;6,00;"Herkunft: UK; solange der Vorrat reicht"
-321;Becks Blue Lemon;Pure Zitronenfrische. Weniger Zucker. Genau das Richtige, wenn du frischen Geschmack suchst.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;3,30;
-322;Benediktiner Hell alkoholfrei;Mild-frisch, alkoholfrei und isotonisch, das ideale Getränk für ein gutes Leben.;alkoholfreies Bier;alkoholfrei;<0,5;0,33l;3,30;
-323;Corona Cero 0,0;Ein fruchtig frisches, goldgelbes Lagerbier. Perfekt für laue Sommernächte.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;4,50;Herkunft: MEX
-324;Jever Fun 0,0;Mit goldgelber Farbe und vollmundigem Geschmack überzeugt Jever Fun 0,0 % optisch und geschmacklich.;alkoholfreies Bier;alkoholfrei;0,0;0,33l;3,30;
-325;Vagabund Pale Ale;Jeder Schluck bringt eine ausgeprägte Malznote, bevor sie sich im sanften Rhythmus von Orangenblüten und Zitrusnoten verliert. Intensiv. Vielseitig. So wie das Leben selbst.;Fassbier;;5,2;0,3l/0,5l;3,80/5,50;
-326;Vault City Cloudy Lemonade;Vollgepackt mit Zitrusaromen von frischem Zitronensaft und -abrieb. Zusammen mit dem spritzigen Charakter eines Bieres aus gemischter Gärung ergibt sich ein leichtes und süffiges Session Sour mit einer anhaltenden Süße.;Fassbier;;4,2;0,3l/0,5l;3,90/5,90;
-327;Once Hopon a Time in America;Fruchtige Süße im Antrunk, mit Anklängen von Zitrusnoten und hellem Malz. Im Abgang folgt eine moderat trockene Bittere. Ein richtig gutes American IPA.;Fassbier;;6,4;0,25l/0,5l;4,30/6,90;
-328;Murphys Irish Stout;Murphy's Irish Stout ist ein klassisches Irish Dry Stout, das für seine sanfte, cremige Textur und seine milden Röstnoten bekannt ist.;Fassbier;;4,0;0,3l/0,5l;3,90/5,90;
-329;Anheuser Busch Bud;Bud ist ein amerikanisches Lagerbier, das seit 1876 in St. Louis, Missouri (USA) gebraut wird. Ein ausgewogener Geschmack mit Aromen von Honig und Zitrusfrüchten, einer goldenen Farbe und einem erfrischenden Geschmackserlebnis zeichnet das Lagerbier aus.;Fassbier;;5,0;0,3l/0,5l;3,90/5,90;
-330;Maisel&Friends Urban IPA;Ein All Day IPA, dem Zitrus- und Grapefruitnoten sowie eine angenehme Bittere eine erfrischende Leichtigkeit verleihen – so belebend wie die Energie der City.;Fassbier;;5,6;0,3l/0,5l;3,90/5,90;
-331;Andechser Hell alkoholfrei;Echt, kernig, feinherb – das Andechser Hell alkoholfrei ist das erste alkoholfreie Helle, das die Klosterbrauerei in ihrer Geschichte auf den Markt bringt. Und wir haben es für euch vom Fass!;Fassbier;alkoholfrei;<0,5;0,3l/0,5l;3,30/4,90;
-332;BrewDog Wingman Pale Ale;Fruchtig, zitronig und leicht. Ein erfrischendes PA mit tropischen Aromen.;Dosenbier;;4,2;0,44l;5,90;Herkunft: UK
-333;Borussia Brauerei Export Borsigplatz Style;Frische und Malzigkeit trifft auf fruchtigen Aromen.;Dosenbier;;5,8;0,33l;4,00;
-334;Hawkes Cider Urban Orchard;Perfekt sprudelnd, mit spritziger Säure und erfrischendem Abgang.;Dosenbier;Cider;5,0;0,33l;4,50;Herkunft: UK
-335;Hopcity: Barking Squirrel;Bernsteinfarbenes Amber Lager mit einem subtilen edlen Hopfenaroma.;Dosenbier;;5,0;0,473l;5,90;Herkunft: CAN
-336;Moosehead Andrew&Patrick's;Modernes Session IPA mit fruchtigen Aromen.;Dosenbier;;4,7;0,473l;5,90;Herkunft: CAN
-337;Moosehead East Coast IPA;Ein fruchtiges India Pale Ale.;Dosenbier;;5,9;0,355l;4,50;Herkunft: CAN
-338;Moosehead Limeade;;Dosenbier;;4,0;0,355l;4,50;"Herkunft: CAN; verschiedene Sorten: Raspberry, Blueberry, Watermelon oder Original Limette"
-339;Moosehead Radler;;Dosenbier;Radler;4,0;0,473l/0,355l;5,90/4,50;"Herkunft: CAN; verschiedene Sorten: Grapefruit (0,473l) oder Melone (0,355l)"
-340;Moosehead Radler Neon;;Dosenbier;Radler;4,0;0,355l;4,50;"Herkunft: CAN; verschiedene Sorten: Cherry Blast und Framboise Bleue"
-341;Moosehead Dark Lager;Dunkles Lagerbier, mit einer Mischung aus fruchtigen und malzigen Noten.;Dosenbier;;4,9;0,473l;5,90;Herkunft: CAN
-342;Moosehead Mistral Hop IPA;Kräftiges IPA mit einem süßlich-fruchtigen Hopfen-Aroma.;Dosenbier;;6,0;0,473l;5,90;Herkunft: CAN
-343;Moosehead Helles Bock;Das helle Bier ist, wie der Name sagt, am deutschen Bock-Bier orientiert.;Dosenbier;;6,2;0,473l;5,90;Herkunft: CAN
-344;Michelob Ultra;Ein sehr beliebtes, leichtes und helles Bier aus der Budweiser Brauerei.;Dosenbier;;4,2;0,355l;4,50;Herkunft: USA
-345;Tecate Cerveza Original;Ein erfrischendes, authentisch mexikanisches Bier.;Dosenbier;;4,5;0,355l;4,50;Herkunft: MEX
+﻿"id";"name";"category";"page";"description";"sizes";"prices";"alcohol";"alcoholfree";"glutenfree";"hint"
+"BS001";"Rheinpott Session IPA";"Flaschenbiere";"Saisonkarte";"Vom Ruhrpott bis zum Niederrhein – drei Brauereien durch ein Bier vereint: Hensen Brauerei aus Mönchengladbach, Brauprojekt 777 aus Voerde und Mücke aus Essen.";"0,33l";"5,50";"3,2";0;0;"solange der Vorrat reicht"
+"BS002";"Adnams Ghost Ship Pale Ale";"Flaschenbiere";"Saisonkarte";"Ein Hauch von Holunderblüte, dazu kräftiger Zitrus- und Stachelbeergeschmack.";"0,5l";"5,90";"4,5";0;0;"Herkunft: UK; solange der Vorrat reicht"
+"BS003";"Benediktiner Hell";"Flaschenbiere";"Saisonkarte";"Ein Lagerbier mit goldgelber Farbe und angenehmer Malzsüße, mild im Geschmack.";"0,5l";"4,90";"5,0";0;0;"solange der Vorrat reicht"
+"BS004";"Brooklynn Amber Lager";"Flaschenbiere";"Saisonkarte";"Ein bernsteinfarbenes American Lager. Es zählt zu den beliebtesten Bieren New Yorks.";"0,33l";"4,00";"5,2";0;0;"MHD; solange der Vorrat reicht"
+"BS005";"Bud Light";"Flaschenbiere";"Saisonkarte";"In der USA-typischen Aluminium-Flasche.";"0,473l";"5,90";"4,2";0;0;"Herkunft: USA; Aluminium-Flasche; solange der Vorrat reicht"
+"BS006";"Cotes du Rogue";"Flaschenbiere";"Saisonkarte";"Ein Sour Blonde Ale, das durch ein herbes Aroma und eine angenehme Frische überzeugt.";"0,5l";"14,90";"7,1";0;0;"Herkunft: USA; solange der Vorrat reicht"
+"BS007";"Dos Equis XX";"Flaschenbiere";"Saisonkarte";"Ein erfrischendes, helles Lagerbier, mit einem milden, leicht malzigen Geschmack.";"0,473l";"4,80";"4,2";0;0;"Herkunft: MEX; solange der Vorrat reicht"
+"BS008";"EBM Schichtende";"Flaschenbiere";"Saisonkarte";"Ungefiltert, herb und ehrlich. Ein Bier der Essener Braumanufaktur. Mit Leidenschaft gebraut.";"0,5l";"4,90";"5,6";0;0;"ungefiltert; solange der Vorrat reicht"
+"BS009";"Jopen Super DuPa IPA";"Flaschenbiere";"Saisonkarte";"Handgemachtes Craftbier mit fruchtigen und exotischen Noten.";"0,33l";"4,50";"5,5";0;0;"Herkunft: NLD; solange der Vorrat reicht"
+"BS010";"Moosehead Light";"Flaschenbiere";"Saisonkarte";"Light bedeutet hier nicht etwa weniger Alkoholgehalt, sondern weniger Kalorien.";"0,341l";"4,50";"4,0";0;0;"kalorienreduziert; Herkunft: CAN; solange der Vorrat reicht"
+"BS011";"Miller Light";"Flaschenbiere";"Saisonkarte";"Der Klassiker aus den USA in der Aluflasche. Ein Lagerbier mit malzig-süßem Geschmack.";"0,473l";"5,90";"4,2";0;0;"Herkunft: USA; Aluminium-Flasche; solange der Vorrat reicht"
+"BS012";"Riegele Kellerbier";"Flaschenbiere";"Saisonkarte";"Drei Malzsorten und die besondere Riegele Alehefe sorgen für ein fruchtiges und vollmundiges Aroma.";"0,5l";"4,90";"5,0";0;0;"solange der Vorrat reicht"
+"BS013";"Samuel Smith's Chocolate Stout";"Flaschenbiere";"Saisonkarte";"Die perfekte Verbindung von Stout und luxuriöser Schokolade.";"0,355l";"4,80";"5,0";0;0;"Herkunft: UK; solange der Vorrat reicht"
+"BS014";"Samuel Smith's Nut Brown Ale";"Flaschenbiere";"Saisonkarte";"Nussiges Aroma, das an Walnüsse, Bucheckern und Mandeln erinnert.";"0,355l";"4,80";"5,0";0;0;"Herkunft: UK; solange der Vorrat reicht"
+"BS015";"Samuel Smith's Imperial Stout";"Flaschenbiere";"Saisonkarte";"Aromen von Kaffee und Schokolade, gebraut im Yorkshire-Squares-Verfahren.";"0,355l";"4,80";"7,0";0;0;"Herkunft: UK; solange der Vorrat reicht"
+"BS016";"Samuel Smith's Organic Lager";"Flaschenbiere";"Saisonkarte";"Mit Noten von dezentem, frisch-brotigem Malz sowie floralen Hopfenaromen.";"0,355l";"4,80";"4,0";0;0;"Bio; Herkunft: UK; solange der Vorrat reicht"
+"BS017";"Störtebeker United Style Lager";"Flaschenbiere";"Saisonkarte";"Zum Sportereignis des Jahres von Sierra Nevada Brewing und Störtebeker gebraut.";"0,355l";"3,70";"4,7";0;0;"solange der Vorrat reicht"
+"BS018";"Flâneur Cidre Dry";"Flaschenbiere";"Saisonkarte";"Trocken, herb und angenehm direkt. Ein Cidre mit Haltung – und Tiefgang.";"0,33l";"4,50";"5,1";0;0;"Cidre; solange der Vorrat reicht"
+"BS019";"Flâneur Cidre Classic";"Flaschenbiere";"Saisonkarte";"Verführt mit seiner feinen Süße jeden Gaumen beim ersten Schluck.";"0,33l";"4,50";"4,9";0;0;"Cidre; solange der Vorrat reicht"
+"BS020";"Flâneur Cidre Rosé";"Flaschenbiere";"Saisonkarte";"Säuerlich-süß, wunderbar leichtfüßig und schlicht unwiderstehlich charmant.";"0,33l";"4,50";"4,9";0;0;"Cidre; solange der Vorrat reicht"
+"BS021";"Samuel Smith's Organic Perry Cider";"Flaschenbiere";"Saisonkarte";"Ein trockener, prickelnder Birnencider mit leuchtend blasser Strohfarbe.";"0,55l";"6,00";"5,0";0;0;"Bio; Birnencider; Herkunft: UK; solange der Vorrat reicht"
+"BS022";"Becks Blue Lemon";"Flaschenbiere";"Saisonkarte";"Pure Zitronenfrische. Weniger Zucker. Genau das Richtige, wenn du frischen Geschmack suchst.";"0,33l";"3,30";"0,0";1;0;"alkoholfrei"
+"BS023";"Benediktiner Hell alkoholfrei";"Flaschenbiere";"Saisonkarte";"Mild-frisch, alkoholfrei und isotonisch, das ideale Getränk für ein gutes Leben.";"0,33l";"3,30";"<0,5";1;0;"alkoholfrei"
+"BS024";"Corona Cero 0,0";"Flaschenbiere";"Saisonkarte";"Ein fruchtig frisches, goldgelbes Lagerbier. Perfekt für laue Sommernächte.";"0,33l";"4,50";"0,0";1;0;"alkoholfrei; Herkunft: MEX"
+"BS025";"Jever Fun 0,0";"Flaschenbiere";"Saisonkarte";"Mit goldgelber Farbe und vollmundigem Geschmack überzeugt Jever Fun 0,0 % optisch und geschmacklich.";"0,33l";"3,30";"0,0";1;0;"alkoholfrei"
+"BS026";"Vagabund Pale Ale";"Fassbiere";"Saisonkarte";"Jeder Schluck bringt eine ausgeprägte Malznote, bevor sie sich im sanften Rhythmus von Orangenblüten und Zitrusnoten verliert. Intensiv. Vielseitig. So wie das Leben selbst.";"0,3l/0,5l";"3,80/5,50";"5,2";0;0;""
+"BS027";"Vault City Cloudy Lemonade";"Fassbiere";"Saisonkarte";"Vollgepackt mit Zitrusaromen von frischem Zitronensaft und -abrieb. Zusammen mit dem spritzigen Charakter eines Bieres aus gemischter Gärung ergibt sich ein leichtes und süffiges Session Sour mit einer anhaltenden Süße.";"0,3l/0,5l";"3,90/5,90";"4,2";0;0;""
+"BS028";"Once Hopon a Time in America";"Fassbiere";"Saisonkarte";"Fruchtige Süße im Antrunk, mit Anklängen von Zitrusnoten und hellem Malz. Im Abgang folgt eine moderat trockene Bittere. Ein richtig gutes American IPA.";"0,25l/0,5l";"4,30/6,90";"6,4";0;0;""
+"BS029";"Murphys Irish Stout";"Fassbiere";"Saisonkarte";"Murphy's Irish Stout ist ein klassisches Irish Dry Stout, das für seine sanfte, cremige Textur und seine milden Röstnoten bekannt ist.";"0,3l/0,5l";"3,90/5,90";"4,0";0;0;""
+"BS030";"Anheuser Busch Bud";"Fassbiere";"Saisonkarte";"Bud ist ein amerikanisches Lagerbier, das seit 1876 in St. Louis, Missouri (USA) gebraut wird. Ein ausgewogener Geschmack mit Aromen von Honig und Zitrusfrüchten, einer goldenen Farbe und einem erfrischenden Geschmackserlebnis zeichnet das Lagerbier aus.";"0,3l/0,5l";"3,90/5,90";"5,0";0;0;""
+"BS031";"Maisel&Friends Urban IPA";"Fassbiere";"Saisonkarte";"Ein All Day IPA, dem Zitrus- und Grapefruitnoten sowie eine angenehme Bittere eine erfrischende Leichtigkeit verleihen – so belebend wie die Energie der City.";"0,3l/0,5l";"3,90/5,90";"5,6";0;0;""
+"BS032";"Andechser Hell alkoholfrei";"Fassbiere";"Saisonkarte";"Echt, kernig, feinherb – das Andechser Hell alkoholfrei ist das erste alkoholfreie Helle, das die Klosterbrauerei in ihrer Geschichte auf den Markt bringt. Und wir haben es für euch vom Fass!";"0,3l/0,5l";"3,30/4,90";"<0,5";1;0;"alkoholfrei"
+"BS033";"BrewDog Wingman Pale Ale";"Dosenbiere";"Saisonkarte";"Fruchtig, zitronig und leicht. Ein erfrischendes PA mit tropischen Aromen.";"0,44l";"5,90";"4,2";0;0;"Herkunft: UK"
+"BS034";"Borussia Brauerei Export Borsigplatz Style";"Dosenbiere";"Saisonkarte";"Frische und Malzigkeit trifft auf fruchtigen Aromen.";"0,33l";"4,00";"5,8";0;0;""
+"BS035";"Hawkes Cider Urban Orchard";"Dosenbiere";"Saisonkarte";"Perfekt sprudelnd, mit spritziger Säure und erfrischendem Abgang.";"0,33l";"4,50";"5,0";0;0;"Cider; Herkunft: UK"
+"BS036";"Hopcity: Barking Squirrel";"Dosenbiere";"Saisonkarte";"Bernsteinfarbenes Amber Lager mit einem subtilen edlen Hopfenaroma.";"0,473l";"5,90";"5,0";0;0;"Herkunft: CAN"
+"BS037";"Moosehead Andrew&Patrick's";"Dosenbiere";"Saisonkarte";"Modernes Session IPA mit fruchtigen Aromen.";"0,473l";"5,90";"4,7";0;0;"Herkunft: CAN"
+"BS038";"Moosehead East Coast IPA";"Dosenbiere";"Saisonkarte";"Ein fruchtiges India Pale Ale.";"0,355l";"4,50";"5,9";0;0;"Herkunft: CAN"
+"BS039";"Moosehead Limeade";"Dosenbiere";"Saisonkarte";"";"0,355l";"4,50";"4,0";0;0;"Herkunft: CAN; verschiedene Sorten: Raspberry, Blueberry, Watermelon oder Original Limette"
+"BS040";"Moosehead Radler";"Dosenbiere";"Saisonkarte";"";"0,473l/0,355l";"5,90/4,50";"4,0";0;0;"Radler; Herkunft: CAN; verschiedene Sorten: Grapefruit (0,473l) oder Melone (0,355l)"
+"BS041";"Moosehead Radler Neon";"Dosenbiere";"Saisonkarte";"";"0,355l";"4,50";"4,0";0;0;"Radler; Herkunft: CAN; verschiedene Sorten: Cherry Blast und Framboise Bleue"
+"BS042";"Moosehead Dark Lager";"Dosenbiere";"Saisonkarte";"Dunkles Lagerbier, mit einer Mischung aus fruchtigen und malzigen Noten.";"0,473l";"5,90";"4,9";0;0;"Herkunft: CAN"
+"BS043";"Moosehead Mistral Hop IPA";"Dosenbiere";"Saisonkarte";"Kräftiges IPA mit einem süßlich-fruchtigen Hopfen-Aroma.";"0,473l";"5,90";"6,0";0;0;"Herkunft: CAN"
+"BS044";"Moosehead Helles Bock";"Dosenbiere";"Saisonkarte";"Das helle Bier ist, wie der Name sagt, am deutschen Bock-Bier orientiert.";"0,473l";"5,90";"6,2";0;0;"Herkunft: CAN"
+"BS045";"Michelob Ultra";"Dosenbiere";"Saisonkarte";"Ein sehr beliebtes, leichtes und helles Bier aus der Budweiser Brauerei.";"0,355l";"4,50";"4,2";0;0;"Herkunft: USA"
+"BS046";"Tecate Cerveza Original";"Dosenbiere";"Saisonkarte";"Ein erfrischendes, authentisch mexikanisches Bier.";"0,355l";"4,50";"4,5";0;0;"Herkunft: MEX"
