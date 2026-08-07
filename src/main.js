@@ -4,7 +4,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 // -----------------------------------------------------------------------------
-// App state
+// App state #test
 // -----------------------------------------------------------------------------
 const APP_VERSION = "1.1.0";
 const DEFAULT_SETTINGS = {
