@@ -20,7 +20,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 999px;
   width: 5px;
 }
@@ -449,7 +449,6 @@ header h1 {
 }
 
 #beer-hint {
-  font-style: italic;
   opacity: 0.75;
 }
 

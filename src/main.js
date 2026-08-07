@@ -194,13 +194,35 @@ function selectRandomBeer() {
     return null;
   }
 
-  const filteredBeers = state.beers.filter((beer) =>
-    state.settings.selectedCategories.has(beer.category?.trim()),
-  );
+  const historyIds = new Set(state.history.map((entry) => entry.id));
+
+  const filteredBeers = state.beers.filter((beer) => {
+    const matchesCategory = state.settings.selectedCategories.has(
+      beer.category?.trim(),
+    );
+
+    if (!matchesCategory) {
+      return false;
+    }
+
+    if (state.settings.alcoholFreeOnly && beer.alcoholfree !== "1") {
+      return false;
+    }
+
+    if (state.settings.glutenFreeOnly && beer.glutenfree !== "1") {
+      return false;
+    }
+
+    if (!state.settings.avoidDuplicates) {
+      return true;
+    }
+
+    return !historyIds.has(beer.id);
+  });
 
   if (filteredBeers.length === 0) {
     showMessage(
-      "Keine Biere für die ausgewählten Filter verfügbar.",
+      "Keine Biere mit den ausgewählten Einstellungen verfügbar.",
       "warning",
     );
     return null;
@@ -251,6 +273,23 @@ function saveSettings() {
   localStorage.setItem("settings", JSON.stringify(payload));
 }
 
+function handleSettingInputChange(event) {
+  const input = event.target;
+  const settingName = input.dataset.setting;
+
+  if (!settingName) {
+    return;
+  }
+
+  if (input.type === "checkbox") {
+    state.settings[settingName] = input.checked;
+  } else {
+    state.settings[settingName] = input.value;
+  }
+
+  saveSettings();
+}
+
 function addHistoryEntry(beer) {
   const entry = {
     id: beer.id,
@@ -259,6 +298,12 @@ function addHistoryEntry(beer) {
 
   state.history.push(entry);
   saveHistory();
+}
+
+function clearHistory() {
+  state.history = [];
+  saveHistory();
+  showMessage("Verlauf gelöscht");
 }
 
 function loadHistory() {
@@ -306,6 +351,22 @@ function renderCategoryFilters() {
   });
 }
 
+function initializeSettingInputs() {
+  document.querySelectorAll("input[data-setting]").forEach((input) => {
+    const settingName = input.dataset.setting;
+
+    if (settingName in state.settings) {
+      if (input.type === "checkbox") {
+        input.checked = Boolean(state.settings[settingName]);
+      } else {
+        input.value = state.settings[settingName];
+      }
+    }
+
+    input.addEventListener("change", handleSettingInputChange);
+  });
+}
+
 function renderHistoryList() {
   const historyList = $("#history-list");
 
@@ -327,12 +388,8 @@ function renderHistoryList() {
 function renderBeer(beer) {
   $("#beer-name").textContent = beer.name;
 
-  if (isNumber(beer.alcohol)) {
-    $("#beer-info").textContent =
-      `${beer.category} (alc. ${beer.alcohol}% vol.)`;
-  } else {
-    $("#beer-info").textContent = `${beer.category} (alc. ${beer.alcohol})`;
-  }
+  $("#beer-info").textContent =
+    `${beer.category} (alc. ${beer.alcohol}${isNumber(beer.alcohol) ? "% vol." : ""})`;
 
   const [sizes, prices] = [beer.sizes, beer.prices].map((str) =>
     str.split("/"),
@@ -347,8 +404,8 @@ function renderBeer(beer) {
     pricingTable.insertAdjacentHTML("beforeend", newRow);
   });
 
-  $("#beer-description").innerHTML = `<p>${beer.description}</p>`;
-  $("#beer-hint").innerHTML = `<p>${beer.hint}</p>`;
+  $("#beer-description").innerHTML = `<p>"${beer.description}"</p>`;
+  $("#beer-hint").innerHTML = `<p>${beer.hint ? `[${beer.hint}]` : ""}</p>`;
 }
 
 // -----------------------------------------------------------------------------
@@ -427,8 +484,11 @@ function initializeUI() {
 
   $(".burger-menu").addEventListener("click", toggleMenu);
   $("#show-history").addEventListener("click", showHistory);
-  $("#overlay-bg").addEventListener("click", clearOverlay);
   $(".history-close").addEventListener("click", clearOverlay);
+  $("#clear-history").addEventListener("click", clearHistory);
+  $("#overlay-bg").addEventListener("click", clearOverlay);
+
+  initializeSettingInputs();
 
   $("#roulette-button").addEventListener("click", async () => {
     const beer = selectRandomBeer();

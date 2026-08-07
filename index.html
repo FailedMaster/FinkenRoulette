@@ -52,15 +52,38 @@
       <div id="overlay-bg" class="overlay hidden"></div>
       <div id="burger-menu-panel" class="overlay hidden">
         <div class="menu-section">
-          <h2>Filter</h2>
+          <h2>Kategorien</h2>
           <div id="category-checkboxes"></div>
+        </div>
+        <div class="menu-section">
+          <h2>Einschränkungen</h2>
+          <label class="category-option">
+            <input
+              id="alcohol-free-only"
+              type="checkbox"
+              data-setting="alcoholFreeOnly"
+            />
+            <span>Nur Alkoholfrei</span>
+          </label>
+          <label class="category-option">
+            <input
+              id="gluten-free-only"
+              type="checkbox"
+              data-setting="glutenFreeOnly"
+            />
+            <span>Nur Glutenfrei</span>
+          </label>
         </div>
         <div class="menu-section">
           <h2>Verlauf</h2>
           <button id="show-history">Verlauf anzeigen</button>
           <button id="clear-history">Verlauf löschen</button>
           <label class="category-option">
-            <input id="avoid-duplicates" type="checkbox" />
+            <input
+              id="avoid-duplicates"
+              type="checkbox"
+              data-setting="avoidDuplicates"
+            />
             <span>Wiederholungen vermeiden</span>
           </label>
         </div>
