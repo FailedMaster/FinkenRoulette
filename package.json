@@ -15,8 +15,8 @@
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^2.0.1",
     "eslint": "^10.8.0",
-    "globals": "^17.7.0",
-    "vite": "^8.1.5"
+    "globals": "^17.9.0",
+    "vite": "^8.2.0"
   },
   "dependencies": {
     "@google/genai": "^2.16.0",
