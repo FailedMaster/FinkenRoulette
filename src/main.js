@@ -386,9 +386,9 @@ function renderHistoryList() {
  * @returns {void}
  */
 function renderBeer(beer) {
-  $("#beer-name").textContent = beer.name;
+  $("#beer-name p").textContent = beer.name;
 
-  $("#beer-info").textContent =
+  $("#beer-info p").textContent =
     `${beer.category} (alc. ${beer.alcohol}${isNumber(beer.alcohol) ? "% vol." : ""})`;
 
   const [sizes, prices] = [beer.sizes, beer.prices].map((str) =>
@@ -404,8 +404,10 @@ function renderBeer(beer) {
     pricingTable.insertAdjacentHTML("beforeend", newRow);
   });
 
-  $("#beer-description").innerHTML = `<p>"${beer.description}"</p>`;
-  $("#beer-hint").innerHTML = `<p>${beer.hint ? `[${beer.hint}]` : ""}</p>`;
+  $("#beer-description p").innerHTML =
+    `${beer.description ? `"${beer.description}"` : ""}`;
+
+  $("#beer-hint p").innerHTML = `${beer.hint ? `[${beer.hint}]` : ""}`;
 }
 
 // -----------------------------------------------------------------------------
