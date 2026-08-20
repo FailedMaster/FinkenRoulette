@@ -19,7 +19,7 @@
     "vite": "^8.2.0"
   },
   "dependencies": {
-    "@google/genai": "^2.16.0",
+    "@google/genai": "^2.17.1",
     "json2csv": "^6.0.0-alpha.2",
     "pdf-lib": "^1.17.1"
   },
