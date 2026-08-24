@@ -6,7 +6,7 @@ const $$ = document.querySelectorAll.bind(document);
 // -----------------------------------------------------------------------------
 // App state #test
 // -----------------------------------------------------------------------------
-const APP_VERSION = "1.1.0";
+const APP_VERSION = "1.1.2";
 const DEFAULT_SETTINGS = {
   selectedCategories: new Set(),
   avoidDuplicates: false,
