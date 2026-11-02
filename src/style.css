@@ -120,9 +120,30 @@ header {
 }
 
 header h1 {
+  font-size: 2.5rem;
   margin: 0;
   flex: 1;
   text-align: center;
+}
+
+#history-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#history-button .history-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  mask: url("/src/assets/icons/history.svg") no-repeat center / contain;
 }
 
 .burger-menu {
@@ -147,16 +168,16 @@ header h1 {
   background-color: #ffffff;
 }
 
-.burger-menu:hover,
-.burger-menu:focus-visible {
+button:hover,
+button:focus-visible {
   opacity: 0.75;
 }
 
 .history-wrapper {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  transform: translate(-50%, -45%);
+  width: 75%;
   height: 75%;
   border: 0.25rem solid var(--theme-red);
   border-radius: 0.5rem;
@@ -215,10 +236,13 @@ header h1 {
   border-collapse: collapse;
 }
 
-#history-list table td {
-  vertical-align: top;
+#history-list table tbody td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   padding: 0.5rem 0;
+}
+
+#history-list table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 #history-list table tbody td:first-child {
