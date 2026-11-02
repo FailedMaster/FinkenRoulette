@@ -283,6 +283,16 @@ function handleSettingInputChange(event) {
 
   if (input.type === "checkbox") {
     state.settings[settingName] = input.checked;
+
+    if (settingName === "alcoholOnly" && input.checked) {
+      state.settings.alcoholFreeOnly = false;
+      $("#alcohol-free-only").checked = false;
+    }
+
+    if (settingName === "alcoholFreeOnly" && input.checked) {
+      state.settings.alcoholOnly = false;
+      $("#alcohol-only").checked = false;
+    }
   } else {
     state.settings[settingName] = input.value;
   }
