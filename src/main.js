@@ -499,6 +499,11 @@ function initializeUI() {
   $(".history-close").addEventListener("click", clearOverlay);
   $("#clear-history").addEventListener("click", clearHistory);
   $("#overlay-bg").addEventListener("click", clearOverlay);
+  $("body").addEventListener("click", (e) => {
+    if (e.target === $("body")) {
+      clearOverlay();
+    }
+  });
 
   initializeSettingInputs();
 
