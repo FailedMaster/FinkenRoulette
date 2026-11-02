@@ -155,8 +155,8 @@ header h1 {
 .history-wrapper {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  transform: translate(-50%, -45%);
+  width: 75%;
   height: 75%;
   border: 0.25rem solid var(--theme-red);
   border-radius: 0.5rem;
@@ -215,10 +215,13 @@ header h1 {
   border-collapse: collapse;
 }
 
-#history-list table td {
-  vertical-align: top;
+#history-list table tbody td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   padding: 0.5rem 0;
+}
+
+#history-list table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 #history-list table tbody td:first-child {
