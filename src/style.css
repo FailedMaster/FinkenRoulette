@@ -125,6 +125,26 @@ header h1 {
   text-align: center;
 }
 
+#history-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#history-button .history-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  mask: url("/src/assets/icons/history.svg") no-repeat center / contain;
+}
+
 .burger-menu {
   position: absolute;
   right: 0;
@@ -147,8 +167,8 @@ header h1 {
   background-color: #ffffff;
 }
 
-.burger-menu:hover,
-.burger-menu:focus-visible {
+button:hover,
+button:focus-visible {
   opacity: 0.75;
 }
 

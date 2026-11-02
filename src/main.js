@@ -445,15 +445,22 @@ function toggleMenu() {
   }
 }
 
-function showHistory() {
+function toggleHistory() {
   const historyWrapper = $(".history-wrapper");
+  const burgerMenuPanel = $("#burger-menu-panel");
 
-  toggleMenu();
-  showOverlayBG();
+  if (historyWrapper.classList.contains("hidden")) {
+    if (!burgerMenuPanel.classList.contains("hidden")) {
+      toggleMenu();
+    }
+    showOverlayBG();
 
-  renderHistoryList();
+    renderHistoryList();
 
-  historyWrapper.classList.remove("hidden");
+    historyWrapper.classList.remove("hidden");
+  } else {
+    clearOverlay();
+  }
 }
 
 function clearOverlay() {
@@ -495,7 +502,8 @@ function initializeUI() {
   renderCategoryFilters();
 
   $(".burger-menu").addEventListener("click", toggleMenu);
-  $("#show-history").addEventListener("click", showHistory);
+  $("#show-history").addEventListener("click", toggleHistory);
+  $("#history-button").addEventListener("click", toggleHistory);
   $(".history-close").addEventListener("click", clearOverlay);
   $("#clear-history").addEventListener("click", clearHistory);
   $("#overlay-bg").addEventListener("click", clearOverlay);
