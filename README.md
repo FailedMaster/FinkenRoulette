@@ -1,10 +1,16 @@
 # FinkenRoulette
 
+## Development
+
+The frontend is a React app built with Vite. Run `npm install` once, then
+`npm run dev` to start the development server. Run `npm run build` to create
+the production bundle in `dist/`.
+
 ## Docker
 
 This project can be built as a Docker image. The container serves the built Vite app with Nginx.
 
-The beer data is kept in the scr folder and is in that way baked into the Docker image. 
+The beer data is kept in `public/` and is baked into the Docker image during the build.
 
 ### Docker Compose example
 
