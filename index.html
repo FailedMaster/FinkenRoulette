@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -41,96 +41,7 @@
     <!-- #endregion Favicon  -->
   </head>
   <body>
-    <div id="app">
-      <div class="top-bar"></div>
-      <header>
-        <div class="header-content">
-          <button id="history-button" type="button" aria-label="Show history">
-            <span class="history-icon"></span>
-          </button>
-          <h1>Finkenroulette</h1>
-          <button class="burger-menu" type="button" aria-label="Open menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-      </header>
-      <div id="overlay-bg" class="overlay hidden"></div>
-      <div id="burger-menu-panel" class="overlay hidden">
-        <div class="menu-section">
-          <h2>Kategorien</h2>
-          <div id="category-checkboxes"></div>
-        </div>
-        <div class="menu-section">
-          <h2>Einschränkungen</h2>
-          <label class="category-option">
-            <input
-              id="alcohol-only"
-              type="checkbox"
-              data-setting="alcoholOnly"
-            />
-            <span>Nur alkoholisch</span>
-          </label>
-          <label class="category-option">
-            <input
-              id="alcohol-free-only"
-              type="checkbox"
-              data-setting="alcoholFreeOnly"
-            />
-            <span>Nur alkoholfrei</span>
-          </label>
-          <label class="category-option">
-            <input
-              id="gluten-free-only"
-              type="checkbox"
-              data-setting="glutenFreeOnly"
-            />
-            <span>Nur glutenfrei</span>
-          </label>
-        </div>
-        <div class="menu-section">
-          <h2>Verlauf</h2>
-          <button id="show-history">Verlauf anzeigen</button>
-          <button id="clear-history">Verlauf löschen</button>
-          <label class="category-option">
-            <input
-              id="avoid-duplicates"
-              type="checkbox"
-              data-setting="avoidDuplicates"
-            />
-            <span>Wiederholungen vermeiden</span>
-          </label>
-        </div>
-      </div>
-      <div class="history-wrapper overlay hidden">
-        <div class="history-container">
-          <button class="history-close" type="button">×</button>
-          <div>
-            <h1 id="history-title">Verlauf</h1>
-          </div>
-          <div id="history-list"></div>
-        </div>
-      </div>
-      <div id="roulette-button"></div>
-      <div id="result-wrapper">
-        <div id="result">
-          <div id="beer-name"><p></p></div>
-          <div id="beer-info"><p></p></div>
-          <div id="beer-pricing"></div>
-          <div id="beer-description"><p></p></div>
-          <div id="beer-hint"><p></p></div>
-        </div>
-      </div>
-      <div class="message-wrapper hidden">
-        <div class="message-container">
-          <span class="message-icon"></span>
-          <span id="message-content"></span>
-          <span class="message-icon"></span>
-        </div>
-      </div>
-    </div>
-
-    <script type="module" src="/src/main.js?v=1.1.1"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
